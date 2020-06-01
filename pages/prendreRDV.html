@@ -42,14 +42,14 @@
             </nav>
         </header>
         <section id="from_contact">
-            <h1>Nous contacter :</h1>
-            <form name="form_contact" action="http://gil83.fr/nolark/testforms.php" method="POST">
+            <h1>Prendre un rendez-vous :</h1>
+            <form name="form_contact" action=".php" method="POST">
                 <fieldset id="coordo">
-                    <legend>Pour mieux vous connaître</legend>
+                    <legend>Vos informations</legend>
                     <div><label for="i_nom">Votre nom :</label> <input type="text" name="i_nom" id="i_nom" size="35" pattern="^[a-zA-ZáàâäãåçéèêëíìîïñóòôöõúùûüýÿæœÁÀÂÄÃÅÇÉÈÊËÍÌÎÏÑÓÒÔÖÕÚÙÛÜÝŸÆŒ\s\-]+$" required><div class="input-validation"></div></div>
                     <div><label for="i_prenom">Votre prénom :</label> <input type="text" name="i_prenom" id="i_prenom" size="35" pattern="^[a-zA-ZáàâäãåçéèêëíìîïñóòôöõúùûüýÿæœÁÀÂÄÃÅÇÉÈÊËÍÌÎÏÑÓÒÔÖÕÚÙÛÜÝŸÆŒ\s\-]+$" required><div class="input-validation"></div></div>
                     <div><label for="i_email">Votre e-mail :</label> <input type="email" name="i_email" id="i_email" size="35" pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required><div class="input-validation"></div></div>
-                    <div><label for="i_url">Votre url :</label> <input type="url" name="i_url" id="i_url" size="35" pattern="https?://.+[a-z0-9.-]+\.[a-z]{2,}$"></div>
+                    <div><label for="i_phone">Votre numéro de téléphone : </label> <input type="tel" name="phone" id="i_phone" pattern="[0-9]{10}"></div>
                     <div>
                         <label for="lst_typeclient">Vous êtes : </label>
                         <select name="lst_typeclient" id="lst_typeclient">
