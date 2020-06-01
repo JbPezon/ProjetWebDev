@@ -1,0 +1,31 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 1 juin 2020, 16:49:55
+    Author     : BRADU Gauthier
+
+
+*/
+@font-face{ 
+    font-family: "Nordic";
+    src: url('polices/Nordic.ttf') format("truetype");
+}
+
+#theme a {
+    font-family: 'Nordic'; /* Police à utiliser */
+    font-size: xx-large; /* Le texte est grossi en XXL */
+    color: black; /* Couleur du texte */
+
+}
+
+#theme {
+    display: flex; /* Ce conteneur est "flexible" */
+    flex-wrap: wrap; /* Les éléments flexibles sont disposés sur plusieurs lignes */
+    justify-content: flex-start; /* Les éléments sont répartis équitablement sur la ligne */
+    margin-bottom: 45px; /* Marge inférieure */
+}
+
+
