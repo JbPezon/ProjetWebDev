@@ -25,6 +25,7 @@ picture {
 
 nav{
     flex-direction: row;
+    width: 95%;
 }
 
 nav input {
