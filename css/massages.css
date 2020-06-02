@@ -1,5 +1,14 @@
 #listeMassage{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: start;
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#listeMassage div{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5%;
 }
