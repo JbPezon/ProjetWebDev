@@ -14,10 +14,11 @@ and open the template in the editor.
     src: url('polices/Nordic.ttf') format("truetype");
 }
 
-#theme a {
-    font-family: 'Nordic'; /* Police à utiliser */
-    font-size: xx-large; /* Le texte est grossi en XXL */
-    color: black; /* Couleur du texte */
+#theme article img {
+    
+width:250px;
+margin-top: 50px;
+margin-bottom: 50 px;
 
 }
 
@@ -25,7 +26,25 @@ and open the template in the editor.
     display: flex; /* Ce conteneur est "flexible" */
     flex-wrap: wrap; /* Les éléments flexibles sont disposés sur plusieurs lignes */
     justify-content: flex-start; /* Les éléments sont répartis équitablement sur la ligne */
-    margin-bottom: 45px; /* Marge inférieure */
+    margin-top: 70px; /* Marge inférieure */
+   
+    margin-left: 200px; /* Marge de gauche */
+    
+   
+}
+#theme,article {
+     display: flex; /* Ce conteneur est "flexible" */
+     flex-direction: row; /* Les éléments sont empilés */
+     margin-left: 200px; /* Marge de gauche */
+     
+    
+}
+
+#theme,article h2{
+     display: flex; /* Ce conteneur est "flexible" */
+     flex-direction: row; /* Les éléments sont empilés */
+      
+    
 }
 
 
