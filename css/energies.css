@@ -9,11 +9,18 @@ and open the template in the editor.
 
 
 */
+@font-face {
+    font-family: 'policeEcritureMain';
+    src: url('../police/Photograph Signature.ttf');
+}
 
 #corpDelaPage{
     display: flex;
     flex-direction: column;
-    align-content: center;
+    height: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+    
 }
 
 #page_energies
@@ -21,21 +28,65 @@ and open the template in the editor.
     padding-top: 5%;
     padding-bottom: 5%;
     font-size: 2em;
+    height: 100%;
+    width: 100%;
+    
+    
+    
 
+}
+#titre{
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+    font-family: "policeEcritureMain", Arial, serif;
+    font-size: 4em;
+    width: 100%;
+    
+    
 }
 #theme {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    width: 100%;
+    
 
 }
-
+#theme div
+{   display:flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between; 
+    
+}
 .presentoire{
     display: flex;
     flex-direction: column;
-    align-content: center;
-    margin-right: 2%;
+    
+    margin-right: 9%;
+    margin-bottom: 10%;
 }
+
 
 #theme h2{
     margin-bottom: 4%;
+    font-family: "policeEcritureMain", Arial, serif;
+    font-size: 2em;
+
+}
+#theme img{
+    width: 150%;
+    height: 150%;
+   
+}
+body {
+    display: flex; /* Ce conteneur est "flexible" */
+    /*justify-content: center; /* Les éléments portés sont centrés à l'horizontal */
+    flex-direction: column; /* Les éléments sont empilés */
+    /*align-items: center; /* Les éléments portés sont centrés à la verticale */
+  
+    width: 100%; /* La page occupe toute la largeur */
+    
+   
+    
 }
