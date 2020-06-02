@@ -4,4 +4,7 @@
  * and open the template in the editor.
  */
 
+window.onload=function(){
+
+};
 
