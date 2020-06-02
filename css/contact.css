@@ -31,14 +31,15 @@
     margin-right: 10px;
 }
 
-#info input, #coordo select {
-    flex: 1;
+#info input, #info select {
+    flex: auto;
+    border: 1px solid black;
 }
 
 #info div {
     display: flex;
     justify-content: space-between;
-    margin: 10px;
+    margin: 10px; 
 }
 
 #info input[type="checkbox"] {
@@ -48,6 +49,11 @@
 #info fieldset {
     width: fit-content;
     margin: auto;
+}
+
+#num_jour, #num_mois, #num_annee{
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 #choix {
