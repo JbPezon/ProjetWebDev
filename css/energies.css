@@ -9,42 +9,28 @@ and open the template in the editor.
 
 
 */
-@font-face{ 
-    font-family: "Nordic";
-    src: url('polices/Nordic.ttf') format("truetype");
-}
 
-#theme article img {
+
+#page_energies
+{   
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: 2em;
+  
     
-width:250px;
-margin-top: 50px;
-margin-bottom: 50 px;
-
+    
 }
-
 #theme {
     display: flex; /* Ce conteneur est "flexible" */
-    flex-wrap: wrap; /* Les éléments flexibles sont disposés sur plusieurs lignes */
+    flex-direction: row;
     justify-content: flex-start; /* Les éléments sont répartis équitablement sur la ligne */
-    margin-top: 70px; /* Marge inférieure */
-   
-    margin-left: 200px; /* Marge de gauche */
-    
+    margin-top: 7%; /* Marge inférieure */  
    
 }
-#theme,article {
-     display: flex; /* Ce conteneur est "flexible" */
-     flex-direction: row; /* Les éléments sont empilés */
-     margin-left: 200px; /* Marge de gauche */
-     
-    
+
+.presentoire{
+    display:flex;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-right: 5%;
 }
-
-#theme,article h2{
-     display: flex; /* Ce conteneur est "flexible" */
-     flex-direction: row; /* Les éléments sont empilés */
-      
-    
-}
-
-
