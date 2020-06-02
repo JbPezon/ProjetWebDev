@@ -54,6 +54,10 @@ picture {
     display: flex;
 }
 
+header picture img {
+    width: 100%;
+}
+
 nav{
     flex-direction: row;
     padding-left: 5%;
