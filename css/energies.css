@@ -10,27 +10,32 @@ and open the template in the editor.
 
 */
 
+#corpDelaPage{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
 
 #page_energies
-{   
+{
     padding-top: 5%;
     padding-bottom: 5%;
     font-size: 2em;
-  
-    
-    
+
 }
 #theme {
-    display: flex; /* Ce conteneur est "flexible" */
+    display: flex;
     flex-direction: row;
-    justify-content: flex-start; /* Les éléments sont répartis équitablement sur la ligne */
-    margin-top: 7%; /* Marge inférieure */  
-   
+
 }
 
 .presentoire{
-    display:flex;
+    display: flex;
     flex-direction: column;
-    margin-left: 5%;
-    margin-right: 5%;
+    align-content: center;
+    margin-right: 2%;
+}
+
+#theme h2{
+    margin-bottom: 4%;
 }
