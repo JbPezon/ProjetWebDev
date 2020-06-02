@@ -55,18 +55,32 @@ and open the template in the editor.
 #theme div
 {   display:flex;
     flex-direction: row;
+    align-items: center;
     width: 100%;
     justify-content: space-between; 
     
+    
 }
-.presentoire{
+.presentoire {
     display: flex;
     flex-direction: column;
-    
-    margin-right: 9%;
+      
+    margin-right: 5%;
+    margin-left: 5%;
     margin-bottom: 10%;
+    
+     
+    
+}
+.presentoire:hover{
+    border: black thin solid; /* Bordure au passage de la souris */
+    border-radius: 3%; /* Bords arrondis au passage de la souris */
+    background-color: #ededed; /* Fond au passage de la souris */
 }
 
+.presentoire dim{
+    width: 110%;
+}
 
 #theme h2{
     margin-bottom: 4%;
@@ -75,9 +89,9 @@ and open the template in the editor.
 
 }
 #theme img{
-    width: 150%;
-    height: 150%;
-   
+    width: 100%;
+    height: 100%;
+    
 }
 body {
     display: flex; /* Ce conteneur est "flexible" */
