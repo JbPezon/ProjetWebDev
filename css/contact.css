@@ -4,27 +4,35 @@
     Email : gauthier.bradu@isen.yncrea.fr , jean-baptiste.pezon@isen.yncrea.fr , emma.valenza@isen.yncrea.fr
 */
 
+section {
+    width: 100%;
+}
+
 #contact h1 {
     margin-top: 10px;
-    text-align: left;
+    text-align: center;
 }
 
 #contact form {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    padding-bottom: 50px;
-    margin-top: 10px;
+    justify-content: center;
+    padding-bottom: 2%;
+    margin-top: 1%;
+    align-items: center;
+    width: 50%;
 }
 
 #contact form fieldset {
     padding: 10px;
     border: 1px solid black;
+    width: 90%;
 }
 
 #info legend {
-    padding: 0 5px;
+    padding: 0 1%;
     font-weight: bold;
+    
 }
 
 #info label {
@@ -71,6 +79,10 @@
 
 #choix label {
     margin-left: 10px;
+}
+
+#area_precisions{
+    border: 1px solid black;
 }
 
 #controles {
