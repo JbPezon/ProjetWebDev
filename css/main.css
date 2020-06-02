@@ -4,6 +4,22 @@
      Email : gauthier.bradu@isen.yncrea.fr , jean-baptiste.pezon@isen.yncrea.fr , emma.valenza@isen.yncrea.fr
 */
 
+footer {
+    display: flex; /* Ce conteneur est "flexible" */
+    justify-content: center; /* Les éléments portés sont centrés à l'horizontal */
+    align-items: center; /* Les éléments portés sont centrés à la verticale */
+    bottom: 0px; /* Bas */
+    height: 35px; /* Hauteur */
+    width: 100%; /* Le pied de page occupe toute la largeur */ 
+    background-color:#FFFFFF; /* Couleur de fond */
+    color: #000; /* Couleur du texte */
+    text-align:center; /* Texte centré */
+}
+
+footer p {
+    font-size: large; /* Le texte est grossi en L */
+}
+
 * {
     margin: 0;
     padding: 0;
