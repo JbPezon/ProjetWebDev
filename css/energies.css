@@ -18,13 +18,13 @@ and open the template in the editor.
     
 width:250px;
 margin-top: 50px;
-margin-bottom: 50 px;
+margin-bottom: 50px;
 
 }
 
 #theme {
     display: flex; /* Ce conteneur est "flexible" */
-    flex-wrap: wrap; /* Les éléments flexibles sont disposés sur plusieurs lignes */
+    flex-direction: row;
     justify-content: flex-start; /* Les éléments sont répartis équitablement sur la ligne */
     margin-top: 70px; /* Marge inférieure */
    
