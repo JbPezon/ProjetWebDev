@@ -56,7 +56,8 @@ picture {
 
 nav{
     flex-direction: row;
-    width: 95%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 nav input {
@@ -89,7 +90,7 @@ section {
 }
 
 #messageMain{
-    font-family: 'policeEcritureMain', Arial, serif;
+    font-family: "policeEcritureMain", Arial, serif;
     display: flex;
     justify-content: center;
     font-size: 4em;
@@ -97,6 +98,34 @@ section {
     margin-bottom: 5%;
 }
 
+#page_1{
+    display: flex;
+    flex-direction: row;
+    font-size: 1.4em;
+}
+
+#messageMilieu{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.4em;
+    margin-top: 5%;
+}
+
+#messageDeFin{
+    font-family: "policeEcritureMain", Arial, serif;
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border: solid black;
+    border-radius: 16px;
+
+}
+
+#description{
+    font-size: 1.4em;
+}
 
 @media screen and (min-width:576px) and (max-width:768px) {
     #thematique {     flex-direction: row; /* Sur tablette, les casques de l'accueil sont côte à côte */     }
