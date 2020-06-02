@@ -19,54 +19,57 @@
 
 #contact form fieldset {
     padding: 10px;
+    border: 1px solid black;
 }
 
-#coordo legend {
+#info legend {
     padding: 0 5px;
     font-weight: bold;
 }
 
-#coordo label {
+#info label {
     margin-right: 10px;
 }
 
-#coordo input, #coordo select {
-    flex: 1;
+#info input, #info select {
+    flex: auto;
+    border: 1px solid black;
 }
 
-#coordo div {
+#info div {
     display: flex;
     justify-content: space-between;
-    margin: 10px;
+    margin: 10px; 
 }
 
-#coordo input[type="checkbox"] {
+#info input[type="checkbox"] {
     margin-right: 5px;
 }
 
-#coordo #marques label {
-    text-transform: capitalize;
-}
-
-#coordo fieldset {
+#info fieldset {
     width: fit-content;
     margin: auto;
 }
 
-#motif {
+#num_jour, #num_mois, #num_annee{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#choix {
     align-self: flex-start;
 }
 
-#motif legend {
+#choix legend {
     padding: 0 5px;
     font-weight: bold;
 }
 
-#motif div {
+#choix div {
     margin: 10px;
 }
 
-#motif label {
+#choix label {
     margin-left: 10px;
 }
 
@@ -89,7 +92,7 @@ input:invalid {
     color: red;
 }
 
-#coordo div.input-validation {
+#info div.input-validation {
     margin: 0;
 }
 
@@ -98,31 +101,4 @@ input[type="email"]:valid ~ .input-validation::before {
     content: "✔";
     margin-left: 5px;
     color: green;
-}
-
-@media screen and (max-width:576px) {
-    #motif {
-        margin-top: 20px;
-    }
-}
-
-@media screen and (min-width:576px) and (max-width:768px) {
-    #contact {
-        display: flex;
-        flex-direction: column;
-    }
-    #contact h1 {
-        width: 100%;
-    }
-    #coordo {
-        width: 100%;
-    }
-    #motif {
-        width: fit-content;
-    }
-    #controles {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-    }
 }
