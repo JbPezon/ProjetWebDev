@@ -10,8 +10,8 @@ and open the template in the editor.
 
 */
 @font-face {
-    font-family: 'policeEcritureMain';
-    src: url('../police/Photograph Signature.ttf');
+    font-family: 'policeEcriture';
+    src: url('../police/Please write me a song.ttf');
 }
 
 #corpDelaPage{
@@ -70,7 +70,7 @@ and open the template in the editor.
 
 #theme h2{
     margin-bottom: 4%;
-    font-family: "policeEcritureMain", Arial, serif;
+    font-family: "policeEcriture", Arial, serif;
     font-size: 2em;
 
 }
