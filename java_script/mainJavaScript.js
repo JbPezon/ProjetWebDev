@@ -4,9 +4,9 @@
  * and open the template in the editor.
  */
 
-var btn = document.querySelector('.boutton');
+var btn1 = document.querySelector('.boutton');
 var desc = document.querySelector('.textCacher');
 
-btn.onclick = function () {
+btn1.onclick = function () {
     desc.classList.toggle('textCacher_open');
 }
