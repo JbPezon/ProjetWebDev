@@ -89,7 +89,7 @@ section {
 }
 
 #messageMain{
-    font-family: 'policeEcritureMain', Arial, serif;
+    font-family: "policeEcritureMain", Arial, serif;
     display: flex;
     justify-content: center;
     font-size: 4em;
