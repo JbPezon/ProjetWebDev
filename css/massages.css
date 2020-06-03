@@ -41,8 +41,19 @@ body{
     transition-duration: 0.2s;
 }
 
+.textCacher p{
+    width: 70%;
+}
+
+.dureeEtPrix{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding-left: 10%;
+}
+
 .descriptionMassage{
-    margin-right: 60%;
+    width: 70%;
 }
 
 .nomEtImage{
