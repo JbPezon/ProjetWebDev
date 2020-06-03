@@ -76,8 +76,32 @@
                         <td><input type="checkbox" name="chk_massages[]" value="massage6" id="chk_massage6"> <label for="rd_massage6">Lifting LHL (Life Head Lift)</label></td>
                     </table>
                 </fieldset>
-                <fieldset id="soins">
-                    <legend>Soins énergétiques</legend>
+                <fieldset id="rdv">
+                    <legend>Type de rendez-vous</legend>
+                    <div>
+                        <fieldset id="massages">
+                            <legend>Massages</legend>
+                            <table>
+                                <td><input type="checkbox" name="chk_massages[]" value="massage1" id="chk_massage1"> <label for="chk_massage1">Massage des 5 continents</label></td>
+                                <td><input type="checkbox" name="chk_massages[]" value="massage2" id="chk_massage2"> <label for="chk_massage2">Massage minceur</label></td>
+                                <td><input type="checkbox" name="chk_massages[]" value="massage3" id="chk_massage3"> <label for="chk_massage3">Massage du dos - Ventouse</label></td>
+                                <td><input type="checkbox" name="chk_massages[]" value="massage4" id="chk_massage4"> <label for="chk_massage4">Massage pour femme enceinte</label></td>
+                                <td><input type="checkbox" name="chk_massages[]" value="massage5" id="chk_massage5"> <label for="chk_massage5">Massage SHINZU - expérience Kenza</label></td>
+                                <td><input type="checkbox" name="chk_massages[]" value="massage6" id="chk_massage6"> <label for="chk_massage6">Lifting LHL (Life Head Lift)</label></td>
+                            </table>
+                        </fieldset>
+                        <fieldset id="soins">
+                            <legend>Soins énergétiques</legend>
+                            <table>
+                                <td><input type="checkbox" name="chk_soins[]" value="soin1" id="chk_soin1"> <label for="chk_soin1">Accessbars</label></td>
+                                <td><input type="checkbox" name="chk_soins[]" value="soin2" id="chk_soin2"> <label for="chk_soin2">Facelift (lifting facial énergétique)</label></td>
+                                <td><input type="checkbox" name="chk_soins[]" value="soin3" id="chk_soin3"> <label for="chk_soin3">Lahochi</label></td>
+                                <td><input type="checkbox" name="chk_soins[]" value="soin4" id="chk_soin4"> <label for="chk_soin4">Triangle d'or d'ISIS</label></td>
+                                <td><input type="checkbox" name="chk_soins[]" value="soin5" id="chk_soin5"> <label for="chk_soin5">Guérisseur Divin</label></td>
+                                <td><input type="checkbox" name="chk_soins[]" value="soin6" id="chk_soin6"> <label for="chk_soin6">EFT (libération émotionnelle)</label></td>
+                            </table>
+                        </fieldset>
+                    </div>
                     <table>
                         <td><input type="checkbox" name="chk_soins[]" value="soins1" id="chk_soins1"> <label for="rd_soins1">Accessbars</label></td>
                         <td><input type="checkbox" name="chk_soins[]" value="soins2" id="chk_soins2"> <label for="rd_soins2">Facelift (lifting facial énergétique)</label></td>
@@ -93,14 +117,15 @@
             </table>
             <div><label for="area_precisions">Commentaires : </label><br><textarea name="area_precisions" id="area_precisions" cols="35" rows="10"></textarea></div>
         </fieldset>
-        <div>
-            <input type="button" id="btn_envoyer" name="sub_envoyer" value="Envoyer votre demande de contact">
-            <input type="reset" name="rst_annuler" value="Effacer les réponses">
-        </div>
+        <div id="envoyer">
+                    <input type="button" id="btn_envoyer" name="sub_envoyer" value="Envoyer votre demande de contact"> 
+                    <input type="reset" name="rst_annuler" value="Effacer les réponses">
+                </div>
     </form>
 </section>
 <footer>
     <p>&copy;2020 - Bien être et Energies - <a href="instanthappy13@gmail.com">Valérie Olivari</a><p>
 </footer>
 </body>
+
 </html>
