@@ -13,6 +13,10 @@ section {
     text-align: center;
 }
 
+#contact div{
+    flex-direction: row;
+}
+
 #contact form {
     display: flex;
     flex-direction: row;
@@ -80,6 +84,11 @@ section {
 
 #choix label {
     margin-left: 10px;
+}
+
+#envoi{
+    text-align: center;
+    
 }
 
 #area_precisions{
