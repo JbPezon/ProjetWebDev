@@ -1,0 +1,48 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 3 juin 2020, 20:22:51
+    Author     : BRADU Gauthier
+*/
+
+#titre1{
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+    font-family:Lucida Handwriting;
+    font-size: 3em;
+
+    width: 100%;
+}
+
+
+#texte{
+
+    display:flex;
+    width: 100%;
+    flex-direction: column;
+    font-size: 1.4em;
+
+}
+#texte h1{
+    display: flex;
+    justify-content: flex-start;
+    font-family:Lucida Handwriting;
+}
+
+#forme{
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+#tarif{
+    display:flex;
+    width: 100%;
+    flex-direction: column;
+    font-size: 1.4em;
+
+}
