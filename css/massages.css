@@ -1,13 +1,16 @@
 #listeMassage{
     display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: center;
     margin-top: 10%;
     margin-left: 5%;
     margin-right: 5%;
-   /*width: 100%; /*Etend l'image vers la droite, pas bon*/
+    width: 90%;
 }
 
+body{
+    width: 100%;
+}
 .massage{
     display: flex;
     flex-direction: column;
@@ -25,7 +28,8 @@
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
     margin-top: -100px;
-    z-index: 1;
+    margin-bottom: 10%;
+    z-index: 2;
     transition-duration: 0.2s;
 }
 .textCacher_open{
@@ -34,8 +38,10 @@
     background-color: white;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
-    margin-top: 0px;
-    z-index: 1;
+    margin-top: -10px;
+    padding-top: 10px;
+    margin-bottom: 5%;
+    z-index: 2;
     transition-duration: 0.2s;
 }
 
@@ -45,13 +51,19 @@
 
 .nomEtImage{
     cursor: pointer;
-    z-index: 2;
+    z-index: 3;
 }
-body {
-    display: flex; /* Ce conteneur est "flexible" */
-    /*justify-content: center; /* Les éléments portés sont centrés à l'horizontal */
-    flex-direction: column; /* Les éléments sont empilés */
-    /*align-items: center; /* Les éléments portés sont centrés à la verticale */
-  
-    width: 100%; /* La page occupe toute la largeur */
+
+.nomEtImage picture{
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+.imageMessage{
+    display: block;
+    width: 80%;
+    height: 200px;
+    z-index: 2;
 }
