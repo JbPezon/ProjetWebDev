@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'policeEcritureSympa';
+    src: url('../police/Michella Garden.otf');
+}
+
 #listeMassage{
     display: flex;
     flex-direction: column;
@@ -20,45 +25,65 @@ body{
 .textCacher{
     display: flex;
     flex-direction: row;
-    background-color: #aee58c;
+    background-color: #a5eaa5;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
     margin-top: -100px;
     margin-bottom: 10%;
+    margin-left: 2%;
     z-index: 2;
     transition-duration: 0.2s;
 }
 .textCacher_open{
     display: flex;
     flex-direction: row;
-    background-color: #aee58c;
+    background-color: #a5eaa5;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
     margin-top: -10px;
-    padding-top: 10px;
+    padding-top: 20px;
+    padding-left: 2%;
+    padding-bottom: 2%;
     margin-bottom: 5%;
     z-index: 2;
     transition-duration: 0.2s;
 }
 
-.textCacher p{
-    width: 70%;
-}
+
 
 .dureeEtPrix{
+    font-family: policeEcritureSympa, Arial, serif;
+    font-size: 1.4em;
     display: flex;
     flex-direction: column;
-    width: 30%;
-    padding-left: 10%;
+    margin-right: 5%;
 }
 
 .descriptionMassage{
-    width: 70%;
+    font-family: policeEcritureSympa, Arial, serif;
+    font-size: 1.4em;
+    margin-right: 5%;
 }
 
 .nomEtImage{
     cursor: pointer;
     z-index: 3;
+}
+
+.boutonMassage{
+    text-decoration: none;
+    font-family: policeEcritureSympa;
+    font-size: 1.4em;
+    color: black;
+    display: flex;
+    align-items: center;
+    border: solid;
+    border-color: #a56ea5;
+    border-radius: 10px;
+    padding-right: 4px;
+    padding-left: 4px;
+    margin-left: 5%;
+    background-color: #cd93cd;
 }
 
 .nomEtImage picture{
