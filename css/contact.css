@@ -32,7 +32,7 @@ section{
     padding: 1%;
     border: 1px solid black;
     width: 50%;
-    margin-left: 2%;
+    margin-left: 1.5%;
     justify-content: center;
 }
 
@@ -53,24 +53,11 @@ section{
 #info div {
     display: flex;
     justify-content: space-between;
-    margin: 1%; 
-}
-
-#info input[type="checkbox"] {
-    margin-right: 0.1%;
 }
 
 #num_jour, #num_mois, #num_annee{
     margin-left: 2%;
     margin-right: 2%;
-}
-
-#type fieldset {
-    border: 1px solid black;
-}
-
-#rdv {
-    align-self: flex-start;
 }
 
 #rdv legend {
@@ -85,6 +72,10 @@ section{
 #rdv div fieldset{
     display: flex;
     flex-direction: row;
+}
+
+td{
+    display: flex;
 }
 
 #envoi{
