@@ -5,7 +5,7 @@
     margin-top: 10%;
     margin-left: 5%;
     margin-right: 5%;
-    width: 100%;
+   /*width: 100%; /*Etend l'image vers la droite, pas bon*/
 }
 
 .massage{
@@ -21,7 +21,7 @@
 .textCacher{
     display: flex;
     flex-direction: row;
-    background-color: #9de06c;
+    background-color: white;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
     margin-top: -100px;
@@ -31,7 +31,7 @@
 .textCacher_open{
     display: flex;
     flex-direction: row;
-    background-color: #9de06c;
+    background-color: white;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
     margin-top: 0px;

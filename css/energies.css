@@ -20,7 +20,6 @@ and open the template in the editor.
     height: 100%;
     margin-left: 5%;
     margin-right: 5%;
-    
 }
 
 #page_energies
@@ -30,60 +29,43 @@ and open the template in the editor.
     font-size: 2em;
     height: 100%;
     width: 100%;
-    
-    
-    
-
 }
+
 #titre{
     display: flex;
     justify-content: center;
     padding-top: 5%;
     font-family: "policeEcritureMain", Arial, serif;
     font-size: 4em;
-    width: 100%;
-    
-    
+    width: 100%;       
 }
 #theme {
     display: flex;
     flex-direction: column;
     width: 100%;
-    
-    
-
 }
 #theme div
 {   display:flex;
     flex-direction: row;
     align-items: center;
     width: 100%;
-    justify-content: space-between;
-    
-    
-    
+    justify-content: space-between;   
 }
 .presentoire {
     display: flex;
     flex-direction: column;
-      
     margin-right: 5%;
     margin-left: 5%;
-    margin-bottom: 10%;
-    
-     
-    
+    margin-bottom: 10%;  
 }
 .presentoire:hover{
     border: black thin solid; /* Bordure au passage de la souris */
     border-radius: 3%; /* Bords arrondis au passage de la souris */
     background-color: #EBC0F1; /* Fond au passage de la souris */
-    
 }
 
 .presentoire dim{
     width: 110%;
-    
 }
 
 #theme h2{
@@ -91,24 +73,21 @@ and open the template in the editor.
     font-family: "policeEcriture", Arial, serif;
     font-size: 2em;
     color: black;
-
 }
+
 #theme img{
     width: 99%;
     height: 83%;
-    
 }
+
 body {
     display: flex; /* Ce conteneur est "flexible" */
     /*justify-content: center; /* Les éléments portés sont centrés à l'horizontal */
     flex-direction: column; /* Les éléments sont empilés */
     /*align-items: center; /* Les éléments portés sont centrés à la verticale */
-  
     width: 100%; /* La page occupe toute la largeur */
-    
-   
-    
 }
+
 #theme a{
      text-decoration: none;
 }
