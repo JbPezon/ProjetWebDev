@@ -4,40 +4,45 @@
     Email : gauthier.bradu@isen.yncrea.fr , jean-baptiste.pezon@isen.yncrea.fr , emma.valenza@isen.yncrea.fr
 */
 
-section {
-    width: 100%;
+@font-face {
+    font-family: 'policeEcriture';
+    src: url('../police/Please write me a song.ttf');
+}
+
+section{
+    width: 99%;
 }
 
 #contact h1 {
-    margin-top: 10px;
+    margin-top: 1%;
     text-align: center;
+    font-family: "policeEcriture", Arial, serif;
+    font-size: 3em;
 }
 
-#contact form {
+#contact form div{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    padding-bottom: 2%;
-    margin-top: 1%;
+    padding-bottom: 1%;
+    padding-top: 1%;
     align-items: center;
-    width: 100%;
 }
 
 #contact form fieldset {
-    padding: 10px;
+    padding: 1%;
     border: 1px solid black;
-    width: 90%;
-    
+    width: 50%;
+    margin-left: 1.5%;
+    justify-content: center;
 }
 
 #info legend {
     padding: 0 1%;
     font-weight: bold;
-    
 }
 
 #info label {
-    margin-right: 10px;
+    margin-right: 1%;
 }
 
 #info input, #info select {
@@ -48,16 +53,6 @@ section {
 #info div {
     display: flex;
     justify-content: space-between;
-    margin: 10px; 
-}
-
-#info input[type="checkbox"] {
-    margin-right: 5px;
-}
-
-#info fieldset {
-    width: fit-content;
-    margin: auto;
 }
 
 #num_jour, #num_mois, #num_annee{
@@ -65,21 +60,27 @@ section {
     margin-right: 2%;
 }
 
-#choix {
-    align-self: flex-start;
-}
-
-#choix legend {
-    padding: 0 5px;
+#rdv legend {
+    padding: 0 1%;
     font-weight: bold;
 }
 
-#choix div {
-    margin: 10px;
+#rdv label {
+    margin-left: 1%;
 }
 
-#choix label {
-    margin-left: 10px;
+#rdv div fieldset{
+    display: flex;
+    flex-direction: row;
+}
+
+td{
+    display: flex;
+}
+
+#envoi{
+    width: 100%;
+    justify-content: center;
 }
 
 #area_precisions{
@@ -114,4 +115,31 @@ input[type="email"]:valid ~ .input-validation::before {
     content: "✔";
     margin-left: 5px;
     color: green;
+}
+
+@media screen and (min-width:576px) and (max-width:768px) {
+    #contact {
+        display: flex;
+        flex-direction: column;
+    }
+    #contact h1 {
+        width: 100%;
+    }
+    #info {
+        width: 100%;
+    }
+    #rdv {
+        width: fit-content;
+    }
+    #controles {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:576px) {
+    #rdv {
+        margin-top: 20px;
+    }
 }
