@@ -39,63 +39,61 @@
         <section id="contact">
             <h1>Prendre un rendez-vous :</h1>
             <form name="contact" action="" method="POST">
+                <fieldset id="info">
+                    <legend>Vos informations</legend>
+                    <div><label for="i_nom">Votre nom :</label> <input type="text" name="i_nom" id="i_nom" size="35" pattern="^[a-zA-ZáàâäãåçéèêëíìîïñóòôöõúùûüýÿæœÁÀÂÄÃÅÇÉÈÊËÍÌÎÏÑÓÒÔÖÕÚÙÛÜÝŸÆŒ\s\-]+$" required><div class="input-validation"></div></div>
+                    <div><label for="i_prenom">Votre prénom :</label> <input type="text" name="i_prenom" id="i_prenom" size="35" pattern="^[a-zA-ZáàâäãåçéèêëíìîïñóòôöõúùûüýÿæœÁÀÂÄÃÅÇÉÈÊËÍÌÎÏÑÓÒÔÖÕÚÙÛÜÝŸÆŒ\s\-]+$" required><div class="input-validation"></div></div>
+                    <div><label for="i_email">Votre e-mail :</label> <input type="email" name="i_email" id="i_email" size="35" pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required><div class="input-validation"></div></div>
+                    <div><label for="i_phone">Votre numéro de téléphone : </label> <input type="tel" name="phone" id="i_phone" pattern="[0-9]{10}"></div>
+                    <div>
+                        <label for="lst_typeclient">Vous êtes : </label>
+                        <select name="lst_typeclient" id="lst_typeclient">
+                            <option value="1">Étudiant(e)</option>
+                            <option value="2">Femme enceinte</option>
+                            <option value="3">Femme</option>
+                            <option value="4">Homme</option>
+                            <option value="99">Autre statut</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label>Date de naissance : </label>
+                        <input type="number" name="num_jour" id="num_jour" min="1" max="31"> / 
+                        <input type="number" name="num_mois" id="num_mois" min="1" max="12"> /
+                        <input type="number" name="num_annee" id="num_annee" min="1920" max="2020">
+                    </div>
+                </fieldset>
+                <fieldset id="rdv">
+                    <legend>Type de rendez-vous</legend>
+                    <div>
+                        <fieldset id="massages">
+                            <legend>Massages</legend>
+                            <table>
+                                <td><input type="checkbox" name="chk_massages[]" value="massage1" id="chk_massage1"> <label for="rd_massage1">Massage des 5 continents</label></td>
+                                <td><input type="checkbox" name="chk_massages[]" value="massage2" id="chk_massage2"> <label for="rd_massage2">Massage minceur</label></td>
+                                <td><input type="checkbox" name="chk_massages[]" value="massage3" id="chk_massage3"> <label for="rd_massage3">Massage du dos - Ventouse</label></td>
+                                <td><input type="checkbox" name="chk_massages[]" value="massage4" id="chk_massage4"> <label for="rd_massage4">Massage pour femme enceinte</label></td>
+                                <td><input type="checkbox" name="chk_massages[]" value="massage5" id="chk_massage5"> <label for="rd_massage5">Massage SHINZU - expérience Kenza</label></td>
+                                <td><input type="checkbox" name="chk_massages[]" value="massage6" id="chk_massage6"> <label for="rd_massage6">Lifting LHL (Life Head Lift)</label></td>
+                            </table>
+                        </fieldset>
+                        <fieldset id="soins">
+                            <legend>Soins énergétiques</legend>
+                            <table>
+                                <td><input type="checkbox" name="chk_soins[]" value="soins1" id="chk_soins1"> <label for="rd_soins1">Accessbars</label></td>
+                                <td><input type="checkbox" name="chk_soins[]" value="soins2" id="chk_soins2"> <label for="rd_soins2">Facelift (lifting facial énergétique)</label></td>
+                                <td><input type="checkbox" name="chk_soins[]" value="soins3" id="chk_soins3"> <label for="rd_soins3">Lahochi</label></td>
+                                <td><input type="checkbox" name="chk_soins[]" value="soins4" id="chk_soins4"> <label for="rd_soins4">Triangle d'or d'ISIS</label></td>
+                                <td><input type="checkbox" name="chk_soins[]" value="soins5" id="chk_soins5"> <label for="rd_soins5">Guérisseur Divin</label></td>
+                                <td><input type="checkbox" name="chk_soins[]" value="soins6" id="chk_soins6"> <label for="rd_soins6">EFT (libération émotionnelle)</label></td>
+                            </table>
+                        </fieldset>
+                    </div>
+                    <table>
+                        <td><input type="checkbox" name="chk_questions[]" value="questions" id="chk_questions"> <label for="chk_questions">Question</label></td>
+                    </table>
+                    <div><label for="area_precisions">Commentaires : </label><br><textarea name="area_precisions" id="area_precisions" cols="35" rows="10"></textarea></div>
+                </fieldset>
                 <div>
-                    <fieldset id="info">
-                        <legend>Vos informations</legend>
-                        <div><label for="i_nom">Votre nom :</label> <input type="text" name="i_nom" id="i_nom" size="35" pattern="^[a-zA-ZáàâäãåçéèêëíìîïñóòôöõúùûüýÿæœÁÀÂÄÃÅÇÉÈÊËÍÌÎÏÑÓÒÔÖÕÚÙÛÜÝŸÆŒ\s\-]+$" required><div class="input-validation"></div></div>
-                        <div><label for="i_prenom">Votre prénom :</label> <input type="text" name="i_prenom" id="i_prenom" size="35" pattern="^[a-zA-ZáàâäãåçéèêëíìîïñóòôöõúùûüýÿæœÁÀÂÄÃÅÇÉÈÊËÍÌÎÏÑÓÒÔÖÕÚÙÛÜÝŸÆŒ\s\-]+$" required><div class="input-validation"></div></div>
-                        <div><label for="i_email">Votre e-mail :</label> <input type="email" name="i_email" id="i_email" size="35" pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required><div class="input-validation"></div></div>
-                        <div><label for="i_phone">Votre numéro de téléphone : </label> <input type="tel" name="phone" id="i_phone" pattern="[0-9]{10}"></div>
-                        <div>
-                            <label for="lst_typeclient">Vous êtes : </label>
-                            <select name="lst_typeclient" id="lst_typeclient">
-                                <option value="1">Étudiant(e)</option>
-                                <option value="2">Femme enceinte</option>
-                                <option value="3">Femme</option>
-                                <option value="4">Homme</option>
-                                <option value="99">Autre statut</option>
-                            </select>
-                        </div>
-                        <div>
-                            <label>Date de naissance : </label>
-                            <input type="number" name="num_jour" id="num_jour" min="1" max="31"> / 
-                            <input type="number" name="num_mois" id="num_mois" min="1" max="12"> /
-                            <input type="number" name="num_annee" id="num_annee" min="1920" max="2020">
-                        </div>
-                    </fieldset>
-                    <fieldset id="rdv">
-                        <legend>Type de rendez-vous</legend>
-                        <div>
-                            <fieldset id="massages">
-                                <legend>Massages</legend>
-                                <table>
-                                    <td><input type="checkbox" name="chk_massages[]" value="massage1" id="chk_massage1"> <label for="rd_massage1">Massage des 5 continents</label></td>
-                                    <td><input type="checkbox" name="chk_massages[]" value="massage2" id="chk_massage2"> <label for="rd_massage2">Massage minceur</label></td>
-                                    <td><input type="checkbox" name="chk_massages[]" value="massage3" id="chk_massage3"> <label for="rd_massage3">Massage du dos - Ventouse</label></td>
-                                    <td><input type="checkbox" name="chk_massages[]" value="massage4" id="chk_massage4"> <label for="rd_massage4">Massage pour femme enceinte</label></td>
-                                    <td><input type="checkbox" name="chk_massages[]" value="massage5" id="chk_massage5"> <label for="rd_massage5">Massage SHINZU - expérience Kenza</label></td>
-                                    <td><input type="checkbox" name="chk_massages[]" value="massage6" id="chk_massage6"> <label for="rd_massage6">Lifting LHL (Life Head Lift)</label></td>
-                                </table>
-                            </fieldset>
-                            <fieldset id="soins">
-                                <legend>Soins énergétiques</legend>
-                                <table>
-                                    <td><input type="checkbox" name="chk_soins[]" value="soins1" id="chk_soins1"> <label for="rd_soins1"></label>Accessbars</td>
-                                    <td><input type="checkbox" name="chk_soins[]" value="soins2" id="chk_soins2"> <label for="rd_soins2"></label>Facelift (lifting facial énergétique)</td>
-                                    <td><input type="checkbox" name="chk_soins[]" value="soins3" id="chk_soins3"> <label for="rd_soins3"></label>Lahochi</td>
-                                    <td><input type="checkbox" name="chk_soins[]" value="soins4" id="chk_soins4"> <label for="rd_soins4"></label>Triangle d'or d'ISIS</td>
-                                    <td><input type="checkbox" name="chk_soins[]" value="soins5" id="chk_soins5"> <label for="rd_soins5"></label>Guérisseur Divin</td>
-                                    <td><input type="checkbox" name="chk_soins[]" value="soins6" id="chk_soins6"> <label for="rd_soins6"></label>EFT (libération émotionnelle)</td>
-                                </table>
-                            </fieldset>
-                        </div>
-                        <table>
-                            <td><input type="checkbox" name="chk_questions[]" value="questions" id="chk_questions"> <label for="chk_questions">Question</label></td>
-                        </table>
-                        <div><label for="area_precisions">Commentaires : </label><br><textarea name="area_precisions" id="area_precisions" cols="35" rows="10"></textarea></div>
-                    </fieldset>
-                </div>
-                <div id="envoi">
                     <input type="button" id="btn_envoyer" name="sub_envoyer" value="Envoyer votre demande de contact"> 
                     <input type="reset" name="rst_annuler" value="Effacer les réponses">
                 </div>
