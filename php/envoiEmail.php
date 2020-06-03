@@ -9,13 +9,16 @@ if(isset($_POST['submit'])){
     $jourNaissance = $_POST['num_jour'];
     $moisNaissance = $_POST['num_mois'];
     $anneeNaissance = $_POST['num_annee'];
+    $commentaire = $_POST['area_precisions'];
 
 
 
     $subject = "Nouveau rendez-vous depuis le site";
-    $message = $prenom . " " . $nom . " wrote the following:" . "\n\n" . $_POST['message'];
+    $message = $prenom . " " . $nom . " : " . $typeClient. "\n\n" . "Date de naissance : " .
+        $jourNaissance . "/" .$moisNaissance . "/" . $anneeNaissance. "\n\n".
+        "Num Telephone : ". $telephone . "\n\nCommentaire : ". $commentaire;
     $headers = "From:" . $from;
-    $headers2 = "From:" . $to;
+
 
 
 
