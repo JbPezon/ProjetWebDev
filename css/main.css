@@ -143,3 +143,8 @@ section {
 @media screen and (min-width:576px) and (max-width:768px) {
     #thematique {     flex-direction: row; /* Sur tablette, les casques de l'accueil sont côte à côte */     }
 }
+
+.ml3 {
+  font-weight: 900;
+  font-size: 1em;
+}
