@@ -24,7 +24,7 @@ section{
     flex-direction: column;
     align-items: center; 
     padding-right: 17%;
-    padding-left: 20%; 
+    padding-left: 18%; 
 }
 
 #contact form div{
@@ -91,7 +91,6 @@ section{
 }
 
 #envoyer input{
-    margin-left: 2%;
     background-color: #cdcbcf;
     border: 1px black solid;
     border-radius: 7px;
@@ -101,8 +100,10 @@ td{
     display: flex;
 }
 
-#area_precisions{
+#com{
     border: 1px solid black;
+    width: 82%;
+    margin-left: 2%;
 }
 
 #controles {
