@@ -62,3 +62,13 @@ body{
     z-index: 2;
     width: 100%;
 }
+
+#titre{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+    font-size: 3em;
+    font-family: "policeEcritureMain", Arial, serif;
+    margin-top: 5%;
+}
