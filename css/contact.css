@@ -70,12 +70,11 @@ section{
 }
 
 #rdv label {
-    margin-left: 1%;
+    margin-bottom: 2%;
 }
 
-#btn_envoyer{
-    //width: 100%;
-    justify-content: center;
+#envoyer{
+    margin-left: 10%;
 }
 
 td{
