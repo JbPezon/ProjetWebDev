@@ -69,6 +69,11 @@ section{
     font-weight: bold;
 }
 
+#info legend, #rdv legend, #massages legend, #soins legend{
+    font-size: 20px;
+    font-style: Arial, serif;
+}
+
 #massages input, #soins input, #questions input{
     margin-top:1.5%;
     margin-right: 1px;
