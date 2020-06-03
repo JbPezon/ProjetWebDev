@@ -20,7 +20,7 @@ section{
 }
 
 #contact form{
-    margin-left: 25%;
+    margin-left: 23%;
 }
 
 #contact form div{
@@ -34,7 +34,7 @@ section{
 #contact form fieldset {
     padding: 1%;
     border: 1px solid black;
-    width: 65%;
+    width: 70%;
     margin-bottom: 1%;
     margin-right: 1%;
     justify-content: center;
@@ -69,12 +69,19 @@ section{
     font-weight: bold;
 }
 
-#rdv label {
-    margin-bottom: 2%;
+#info legend, #rdv legend, #massages legend, #soins legend{
+    font-size: 20px;
+    font-style: Arial, serif;
 }
 
-#envoyer{
-    margin-left: 10%;
+#massages input, #soins input, #questions input{
+    margin-top:1.5%;
+    margin-right: 1px;
+}
+
+#massages label, #soins label, #questions label, #com label{
+    font-size: 20px;
+    font-style: Arial, serif;
 }
 
 td{

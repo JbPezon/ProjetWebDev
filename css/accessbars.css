@@ -4,7 +4,7 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 */
 /* 
-    Created on : 3 juin 2020, 14:49:12
+    Created on : 3 juin 2020, 16:51:11
     Author     : BRADU Gauthier
 */
 
@@ -13,11 +13,19 @@ and open the template in the editor.
     justify-content: center;
     padding-top: 5%;
     font-family:Lucida Handwriting;
-    font-size: 3em;
-
+    flex-direction: column;
     width: 100%;
 }
-
+#titre1 h1{
+    display: flex;
+    justify-content: center;
+     font-size: 3em;
+}
+#titre1 h2{
+    display: flex;
+    justify-content: center;
+        font-size: 1.7em;
+}
 
 #texte{
 
@@ -29,7 +37,7 @@ and open the template in the editor.
 }
 #texte h1{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     font-family:Lucida Handwriting;
 }
 
