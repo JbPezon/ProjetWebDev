@@ -60,17 +60,22 @@
                             <label>Date de naissance : </label>
                             <input type="number" name="num_jour" id="num_jour" min="1" max="31"> / 
                             <input type="number" name="num_mois" id="num_mois" min="1" max="12"> /
-                            <input type="number" name="num_annee" id="num_annee" min="1900" max="2016">
+                            <input type="number" name="num_annee" id="num_annee" min="1920" max="2020">
                         </div>
                     </fieldset>
-                    <fieldset id="choix">
+                    <fieldset id="rdv">
                         <legend>Type de rendez-vous</legend>
-                        <div><input type="radio" name="rd_choix" value="deminfo" id="rd_deminfo"> <label for="rd_deminfo">Demande d'information</label></div>
-                        <div><input type="radio" name="rd_choix" value="reclam" id="rd_reclam"> <label for="rd_reclam">Réclamation</label></div>
-                        <div><input type="radio" name="rd_choix" value="satis" id="rd_satis"> <label for="rd_satis">Satisfaction</label></div>
-                        <div><input type="radio" name="rd_choix" value="suivi" id="rd_suivi"> <label for="rd_suivi">Suivi de commande</label></div>
-                        <div><input type="radio" name="rd_choix" value="pub" id="rd_pub"> <label for="rd_pub">Publicité</label></div>
-                        <div><input type="radio" name="rd_choix" value="autre" id="rd_autre"> <label for="rd_autre">Autre...</label></div>
+                        <fieldset id="massages">
+                            <legend>Massages</legend>
+                            <div><input type="radio" name="rd_massages" value="massage1" id="rd_massage1"> <label for="rd_massages"></label>Massage1</div>
+                            <div><input type="radio" name="rd_massages" value="massage2" id="rd_massage2"> <label for="rd_massages"></label>Massage2</div>
+                        </fieldset>
+                        <fieldset id="soins">
+                            <legend>Soins énergétiques</legend>
+                            <div><input type="radio" name="rd_soins" value="soins1" id="rd_soins1"> <label for="rd_soins1"></label>Soins1</div>
+                            <div><input type="radio" name="rd_soins" value="soins2" id="rd_soins2"> <label for="rd_soins2"></label>Soins2</div>
+                        </fieldset>
+                        <div><input type="radio" name="rd_rdv" value="autre" id="rd_autre"> <label for="rd_autre">Autre...</label></div>
                         <div><label for="area_precisions">Si "Autre", veuillez préciser :</label><br><textarea name="area_precisions" id="area_precisions" cols="35" rows="10"></textarea></div>
                     </fieldset>
             </div>
