@@ -9,8 +9,8 @@
     src: url('../police/Please write me a song.ttf');
 }
 
-section {
-    width: 100%;
+section{
+    width: 99%;
 }
 
 #contact h1 {
@@ -23,8 +23,8 @@ section {
 #contact form div{
     display: flex;
     flex-direction: row;
-    padding-bottom: 2%;
-    //margin: 1% 10% 0 1%;
+    padding-bottom: 1%;
+    padding-top: 1%;
     align-items: center;
 }
 
@@ -32,7 +32,8 @@ section {
     padding: 1%;
     border: 1px solid black;
     width: 50%;
-    margin: 2%;
+    margin-left: 2%;
+    justify-content: center;
 }
 
 #info legend {
@@ -59,11 +60,6 @@ section {
     margin-right: 0.1%;
 }
 
-#info fieldset {
-    width: fit-content;
-    margin: auto;
-}
-
 #num_jour, #num_mois, #num_annee{
     margin-left: 2%;
     margin-right: 2%;
@@ -78,12 +74,8 @@ section {
 }
 
 #rdv legend {
-    padding: 0 5px;
+    padding: 0 1%;
     font-weight: bold;
-}
-
-#rdv div {
-    margin: 1%;
 }
 
 #rdv label {
