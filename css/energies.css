@@ -62,9 +62,9 @@ and open the template in the editor.
     margin-right: 5%;
     margin-left: 5%;
     margin-bottom: 10%;  
-   box-shadow: 3px 4px 5px #cdcbcf;
-  -moz-box-shadow:3px 4px 5px #cdcbcf;     
-  -webkit-box-shadow:3px 4px 5px #cdcbcf;
+    box-shadow: 3px 4px 5px #cdcbcf;
+    -moz-box-shadow:3px 4px 5px #cdcbcf;     
+    -webkit-box-shadow:3px 4px 5px #cdcbcf;
     overflow: hidden;
 }
 .presentoire:hover{
