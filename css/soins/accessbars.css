@@ -40,19 +40,20 @@ and open the template in the editor.
     display: flex;
     justify-content: flex-start;
     font-family:Lucida Handwriting;
+    
 }
 
 #forme{
     margin-left: 5%;
     margin-right: 5%;
-     color:black;
+    color:black;
     background-color:white;
-    background-image:url("https://cdn.pixabay.com/photo/2014/09/27/17/35/dandelion-463928_960_720.jpg");
+    background-image:url(../../images/accessbar2.PNG);
     background-repeat:no-repeat;
-    background-size: 80%;
-    background-position: 10% 10%;
-    
-
+    background-size: 25%;
+    background-position: 50% 5%;
+    border-radius: 10%;
+    overflow: hidden;
 }
 
 #tarif{
