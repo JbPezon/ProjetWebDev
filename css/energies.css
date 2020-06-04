@@ -71,7 +71,7 @@ and open the template in the editor.
     -moz-transition: all 2s ease; /* Firefox */
     -ms-transition: all 2s ease; /* Internet Explorer 9 */
     -o-transition: all 2s ease; /* Opera */
-    transition: all 2s ease
+    transition: all 2s ease;
 }
 .presentoire:hover{
     border: black thin solid; /* Bordure au passage de la souris */
@@ -82,12 +82,19 @@ and open the template in the editor.
     -webkit-transition: opacity 1s;
     -o-transition: opacity 1s;
 
+    -webkit-transition: all 2s ease; /* Safari et Chrome */
+    -moz-transition: all 2s ease; /* Firefox */
+    -ms-transition: all 2s ease; /* Internet Explorer 9 */
+    -o-transition: all 2s ease; /* Opera */
+    transition: all 2s ease;
+
 
     -webkit-transform:scale(1.1); /* Safari et Chrome */
     -moz-transform:scale(1.1); /* Firefox */
     -ms-transform:scale(1.1); /* Internet Explorer 9 */
     -o-transform:scale(1.1); /* Opera */
     transform:scale(1.1)
+
 }
 
 .presentoire dim{
