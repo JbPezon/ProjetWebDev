@@ -12,3 +12,8 @@ body {
     width: 100%; /* La page occupe toute la largeur */
     height: 100%;
 }
+
+#page_1 article{
+    padding-top: 7%;
+    text-align: center;
+}
