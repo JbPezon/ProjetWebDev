@@ -10,6 +10,12 @@ var estAfficherMassage4 = 0;
 var estAfficherMassage5 = 0;
 var estAfficherMassage6 = 0;
 
+var btn = document.querySelector(".icone_menu");
+var nav = document.querySelector(".ul");
+
+btn.onclick = function(){
+    nav.classList.toggle("ul_open");
+}
 
 function afficheDescription(el) {
     var hauteur=el.querySelector(".nomEtImage").offsetHeight;
