@@ -112,29 +112,43 @@ section {
 }
 #page_1 img{
 
-    overflow:hidden;
-    -webkit-border-radius:50px;
-    -moz-border-radius:50px;
     border-radius:100px;
     width:145px;
     height:213px;
 
-    -webkit-filter: grayscale(0) blur(0px);
-    filter: grayscale(0) blur(0px);
-    -webkit-transition: all 0.5s ease;
-    transition: all 0.5s ease
-
-
 }
-#page_1 img:hover {
+.container {
+    position: relative;
+    width: 50%;
+    border-radius:100px;
+}
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 100%;
+    right: 0;
+    background-color: #B47DD4;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+}
+.container:hover .overlay {
+    width: 100%;
+    left: 0;
+    border-radius:100px;
+}
 
-    width: 150px; /* on affiche l'image au carré */
-    height: 150px;
-    border-radius: 50%;  /* on arrondit l'image */
-    -webkit-transform: rotate(360deg); /* rotation de l'image */
-    transform: rotate(360deg);
-
-
+.text {
+    white-space: nowrap; 
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
 }
 #messageMilieu{
     display: flex;
