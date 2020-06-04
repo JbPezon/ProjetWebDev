@@ -89,7 +89,7 @@ section{
 
 }
 
-#massages label, #soins label, #questions label, #com label{
+#massages label, #soins label, #questions label{
     font-family: Gabriola, Arial, serif;
     font-size: 2em;
     padding: 0;
@@ -118,9 +118,9 @@ td{
     height: 50%;
 }
 
-#com label{
+#plus label{
     font-family: Gabriola, Arial, serif;
-    font-size:2em;
+    font-size: 2em;
 }
 
 input:valid, :not(input[type="submit"]) {
