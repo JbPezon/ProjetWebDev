@@ -60,7 +60,7 @@ body{
 }
 
 .dureeEtPrix{
-    font-family: Gabriola;
+    font-family: Gabriola, Arial, serif;
     display: flex;
     flex-direction: column;
     margin-right: 5%;
@@ -71,7 +71,7 @@ body{
 
 .descriptionMassage{
     display: flex;
-    font-family: Gabriola;
+    font-family: Gabriola, Arial, serif;
     margin-right: 5%;
     align-items: center;
     width: 50%;
@@ -91,7 +91,7 @@ body{
 
 .boutonMassage{
     text-decoration: none;
-    font-family: Gabriola;
+    font-family: Gabriola, Arial, serif;
     font-size: 1em;
     color: black;
     display: flex;
