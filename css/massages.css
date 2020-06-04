@@ -40,7 +40,6 @@ body{
     background-color: #a5eaa5;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
-    margin-top: -208px;
     z-index: 2;
     transition-duration: 0.4s;
 }
@@ -62,19 +61,31 @@ body{
     font-family: Gabriola;
     font-size: 1.4em;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     margin-right: 5%;
+    align-items: center;
+    width: 20%;
 }
 
 .descriptionMassage{
+    display: flex;
     font-family: Gabriola;
     font-size: 1.4em;
     margin-right: 5%;
+    align-items: center;
+    width: 50%;
 }
 
 .nomEtImage{
     cursor: pointer;
     z-index: 3;
+}
+
+.divBouton{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 30%;
 }
 
 .boutonMassage{
@@ -91,6 +102,8 @@ body{
     padding-left: 4px;
     margin-left: 5%;
     background-color: #cd93cd;
+    width: 50%;
+    height: 50%;
 }
 
 .nomEtImage picture{
