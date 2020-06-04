@@ -88,6 +88,8 @@ and open the template in the editor.
     -ms-transform:scale(1.1); /* Internet Explorer 9 */
     -o-transform:scale(1.1); /* Opera */
     transform:scale(1.1)
+        
+    
 }
 
 .presentoire dim{
