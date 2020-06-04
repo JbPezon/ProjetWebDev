@@ -58,7 +58,7 @@ body{
 }
 
 .dureeEtPrix{
-    font-family: 'policeEcriture', Helvetica, sans-serif;
+    font-family: Gabriola;
     font-size: 1.4em;
     display: flex;
     flex-direction: row;
@@ -69,7 +69,7 @@ body{
 
 .descriptionMassage{
     display: flex;
-    font-family: 'policeEcriture', Helvetica, sans-serif;
+    font-family: Gabriola;
     font-size: 1.4em;
     margin-right: 5%;
     align-items: center;
@@ -90,7 +90,7 @@ body{
 
 .boutonMassage{
     text-decoration: none;
-    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    font-family: Gabriola;
     font-size: 1em;
     color: black;
     display: flex;
