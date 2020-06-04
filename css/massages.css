@@ -24,14 +24,19 @@ body{
 }
 
 .textCacher{
+    display: none;
+    margin-bottom: 5%;
+}
+
+.textCacher_before_open{
     display: flex;
     flex-direction: row;
     background-color: #a5eaa5;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
-    margin-top: -100px;
-    margin-bottom: 10%;
+    margin-top: -15%;
     margin-left: 2%;
+    margin-bottom: 10%;
     z-index: 2;
     transition-duration: 0.2s;
 }
@@ -52,16 +57,16 @@ body{
 }
 
 .dureeEtPrix{
-    font-family: policeEcritureSympa, Arial, serif;
-    font-size: 1.4em;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    font-size: 1em;
     display: flex;
     flex-direction: column;
     margin-right: 5%;
 }
 
 .descriptionMassage{
-    font-family: policeEcritureSympa, Arial, serif;
-    font-size: 1.4em;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    font-size: 1em;
     margin-right: 5%;
 }
 
@@ -72,8 +77,8 @@ body{
 
 .boutonMassage{
     text-decoration: none;
-    font-family: policeEcritureSympa;
-    font-size: 1.4em;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    font-size: 1em;
     color: black;
     display: flex;
     align-items: center;
