@@ -14,19 +14,16 @@ and open the template in the editor.
     padding-top: 5%;
     font-family:Lucida Handwriting;
     font-size: 3em;
-
     width: 100%;
 }
 
-
 #texte{
-
     display:flex;
     width: 100%;
     flex-direction: column;
     font-size: 1.4em;
-
 }
+
 #texte h1{
     display: flex;
     justify-content: flex-start;
@@ -36,7 +33,6 @@ and open the template in the editor.
 #forme{
     margin-left: 5%;
     margin-right: 5%;
-
 }
 
 #tarif{
