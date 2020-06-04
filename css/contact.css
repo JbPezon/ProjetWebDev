@@ -21,8 +21,8 @@ section{
     display: flex;
     flex-direction: column;
     align-items: center; 
-    padding-right: 17%;
-    padding-left: 18%;
+    padding-right: 10%;
+    padding-left: 10%;
 }
 
 #contact form div{
@@ -87,10 +87,13 @@ section{
     font-weight: bold;
 }
 
+
+
 #envoyer input{
     background-color: #cdcbcf;
     border: 1px black solid;
     border-radius: 7px;
+    margin-right: 4%;
 }
 
 td{
