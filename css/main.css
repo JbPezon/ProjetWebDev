@@ -111,15 +111,31 @@ section {
     font-size: 1.4em;
 }
 #page_1 img{
-   
+
     overflow:hidden;
     -webkit-border-radius:50px;
     -moz-border-radius:50px;
     border-radius:100px;
     width:145px;
     height:213px;
-}
 
+    -webkit-filter: grayscale(0) blur(0px);
+    filter: grayscale(0) blur(0px);
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease
+
+
+}
+#page_1 img:hover {
+
+    width: 150px; /* on affiche l'image au carré */
+    height: 150px;
+    border-radius: 50%;  /* on arrondit l'image */
+    -webkit-transform: rotate(360deg); /* rotation de l'image */
+    transform: rotate(360deg);
+
+
+}
 #messageMilieu{
     display: flex;
     flex-direction: column;
@@ -137,6 +153,20 @@ section {
     border: solid black;
     border-radius: 16px;
 
+    background-color:#F5F5F5;
+    color:#F5F5F5;
+
+
+
+}
+
+#messageDeFin:hover{
+
+
+    color:black;
+    -webkit-filter: grayscale(0) blur(0px);
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease
 }
 
 #description{
@@ -250,6 +280,6 @@ section {
 }
 
 .ml3 {
-  font-weight: 900;
-  font-size: 1em;
+    font-weight: 900;
+    font-size: 1em;
 }
