@@ -27,40 +27,81 @@ and open the template in the editor.
     justify-content: center;
     font-size: 1.7em;
 }
+#titre1 p{
+    display: flex;
+    justify-content: center;
+    font-size: 1.4em;
+    margin-top: 1%;
+}
 
 #texte{
-
     display:flex;
-    width: 100%;
     flex-direction: column;
     font-size: 1.4em;
+    width: 100%;
+    margin-top: 2%;
 
 }
 #texte h1{
     display: flex;
     justify-content: flex-start;
     font-family:Lucida Handwriting;
-    
+
 }
 
 #forme{
     margin-left: 5%;
     margin-right: 5%;
-    color:black;
-    background-color:white;
-    background-image:url(../../images/accessbar2.PNG);
-    background-repeat:no-repeat;
-    background-size: 25%;
-    background-position: 50% 5%;
-    border-radius: 10%;
-    overflow: hidden;
+
 }
 
 #tarif{
     display:flex;
-    width: 100%;
+    width: 20%;
+    font-size: 1.4em;
+     flex-direction: column;
+
+}
+#tarif h1{
+    font-family:Lucida Handwriting;
+    
+}
+#texte2{
+    display:flex;
     flex-direction: column;
     font-size: 1.4em;
 
 }
 
+#texte2 h1{
+    display: flex;
+    justify-content: flex-start;
+    font-family:Lucida Handwriting;
+
+}
+
+
+#forme2
+{    margin-left: 5%;
+     margin-right: 5%;
+    justify-content: center;
+     display: flex;
+     flex-direction: row;
+     margin-top: 5%;
+}
+
+#centre{
+     display:flex;
+     justify-content: center;
+     flex-direction: column;
+     
+}
+#centre h1{
+     display:flex;
+     justify-content: center;
+     margin-top: 4%;
+}
+#centre p{
+     display:flex;
+     justify-content: center;
+}
