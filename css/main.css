@@ -143,7 +143,7 @@ section {
     font-size: 1.4em;
 }
 
-#icone_menu{
+.icone_menu{
     display: none;
 }
 
@@ -162,13 +162,13 @@ section {
         <!--display: none;-->
     }
 
-    #icone_menu{
+    .icone_menu{
         display: flex;
         flex-direction: column;
         align-items: end;
     }
 
-    #icone_menu picture{
+    .icone_menu picture{
         display: flex;
     }
 
