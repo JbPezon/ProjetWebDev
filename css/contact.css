@@ -4,19 +4,17 @@
     Email : gauthier.bradu@isen.yncrea.fr , jean-baptiste.pezon@isen.yncrea.fr , emma.valenza@isen.yncrea.fr
 */
 
-@font-face {
-    font-family: 'policeEcriture';
-    src: url('../police/Please write me a song.ttf');
-}
-
 section{
     width: 99%;
 }
 
-#contact h1 {
-    text-align: center;
-    font-family: "policeEcriture", Arial, serif;
-    font-size: 3em;
+#titre{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+    font-size: 5em;
+    font-family: "policeEcritureMain", Arial, serif;
 }
 
 #contact form{
@@ -31,7 +29,6 @@ section{
     display: flex;
     flex-direction: row;
     padding-bottom: 1%;
-    padding-top: 1%;
     align-items: center;
 }
 
@@ -74,7 +71,7 @@ section{
 }
 
 #info legend, #rdv legend, #massages legend, #soins legend{
-    font-size: 17px;   
+    font-size: 17px;
 }
 
 #massages input, #soins input, #questions input{
@@ -103,19 +100,8 @@ td{
 #com{
     border: 1px solid black;
     width: 82%;
+    padding: 0.5%;
     margin-left: 2%;
-}
-
-#controles {
-    margin-top: 10px;
-}
-
-#controles input {
-    padding: 10px;
-}
-
-#controles input:first-child {
-    margin-right: 10px;
 }
 
 input:valid, :not(input[type="submit"]) {
@@ -125,14 +111,10 @@ input:invalid {
     color: red;
 }
 
-#info div.input-validation {
-    margin: 0;
-}
-
 input[type="text"]:valid ~ .input-validation::before,
 input[type="email"]:valid ~ .input-validation::before {
     content: "✔";
-    margin-left: 5px;
+    margin-left: 2%;
     color: green;
 }
 

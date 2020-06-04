@@ -37,8 +37,10 @@
             </nav>
         </header>
         <section id="contact">
-            <h1>Prendre un rendez-vous :</h1>
-            <form name="contact" action="" method="POST">
+            <div id="titre">
+                <p>Prendre un rendez-vous</p>
+            </div>
+            <form name="contact" action="envoiEmail.php" method="POST">
                 <fieldset id="info">
                     <legend>Vos informations</legend>
                     <div><label for="i_nom">Votre nom :</label> <input type="text" name="i_nom" id="i_nom" size="35" pattern="^[a-zA-ZáàâäãåçéèêëíìîïñóòôöõúùûüýÿæœÁÀÂÄÃÅÇÉÈÊËÍÌÎÏÑÓÒÔÖÕÚÙÛÜÝŸÆŒ\s\-]+$" required><div class="input-validation"></div></div>
@@ -91,7 +93,7 @@
                     <table>
                         <td><div id="questions"><input type="checkbox" name="chk_questions[]" value="questions" id="chk_questions"> <label for="chk_questions">Question</label></div></td>
                     </table>
-                    <div><label for="com">Commentaires : </label><br><textarea name="commentaires" id="com" cols="35" rows="10"></textarea></div>
+                    <div><label for="com">Commentaires:</label><textarea name="commentaires" id="com" cols="35" rows="10"></textarea></div>
                 </fieldset>
                 <div id="envoyer">
                     <input type="submit" name="sub_envoyer" value="Envoyer votre demande de prise de rendez-vous">
@@ -100,7 +102,7 @@
             </form>
         </section>
         <footer>
-            <p>&copy;2020 - Bien être et Energies - <a href="instanthappy13@gmail.com">Valérie Olivari</a><p>
+            <p>&copy;2020 - Bien-être et Energies - <a href="instanthappy13@gmail.com">Valérie Olivari</a><p>
         </footer>
     </body>
 
