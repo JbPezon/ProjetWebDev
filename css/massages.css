@@ -42,6 +42,7 @@ body{
     border-bottom-left-radius: 10px;
     z-index: 2;
     transition-duration: 0.4s;
+    font-size: 1.3em;
 }
 
 .textCacher_open{
@@ -55,11 +56,11 @@ body{
     padding-left: 2%;
     z-index: 2;
     transition-duration: 0.4s;
+    font-size: 1.3em;
 }
 
 .dureeEtPrix{
     font-family: Gabriola;
-    font-size: 1.4em;
     display: flex;
     flex-direction: row;
     margin-right: 5%;
@@ -70,7 +71,6 @@ body{
 .descriptionMassage{
     display: flex;
     font-family: Gabriola;
-    font-size: 1.4em;
     margin-right: 5%;
     align-items: center;
     width: 50%;
