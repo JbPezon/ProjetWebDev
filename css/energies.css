@@ -18,11 +18,16 @@
 }
 
 #page_energies{
-    padding-top: 5%;
+    padding-top: 3%;
     padding-bottom: 5%;
-    font-size: 2em;
+    font-size: 1.5em;
     height: 100%;
     width: 100%;
+}
+
+#page_energies p{
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 #titre{
@@ -111,7 +116,7 @@
     -webkit-transition: opacity 0.3s;
     -o-transition: opacity 0.3s;
 
-    
+
 }
 
 body {
