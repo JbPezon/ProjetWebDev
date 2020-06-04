@@ -1,3 +1,9 @@
+/*
+    Page web créé dans le cadre du projet de fin d'année - juin 2020
+    Auteurs : BRADU Gauthier, PEZON Jean-baptiste et VALENZA Emma
+    Email : gauthier.bradu@isen.yncrea.fr , jean-baptiste.pezon@isen.yncrea.fr , emma.valenza@isen.yncrea.fr
+*/
+
 body {
     display: flex; /* Ce conteneur est "flexible" */
     justify-content: center; /* Les éléments portés sont centrés à l'horizontal */
