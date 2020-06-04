@@ -40,9 +40,7 @@ body{
     background-color: #a5eaa5;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
-    margin-top: -15%;
-    margin-left: 2%;
-    margin-bottom: 10%;
+    margin-top: -208px;
     z-index: 2;
     transition-duration: 0.4s;
 }
@@ -56,8 +54,6 @@ body{
     margin-top: -10px;
     padding-top: 20px;
     padding-left: 2%;
-    padding-bottom: 2%;
-    margin-bottom: 5%;
     z-index: 2;
     transition-duration: 0.4s;
 }
@@ -102,6 +98,8 @@ body{
     border-radius: 10px;
     width: 100%;
     overflow: hidden;
+    max-height: 100%;
+    max-width: 100%;
 }
 
 .imageMessage{
