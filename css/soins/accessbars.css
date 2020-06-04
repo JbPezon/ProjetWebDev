@@ -19,12 +19,13 @@ and open the template in the editor.
 #titre1 h1{
     display: flex;
     justify-content: center;
-     font-size: 3em;
+    font-size: 3em;
 }
+
 #titre1 h2{
     display: flex;
     justify-content: center;
-        font-size: 1.7em;
+    font-size: 1.7em;
 }
 
 #texte{
@@ -44,6 +45,13 @@ and open the template in the editor.
 #forme{
     margin-left: 5%;
     margin-right: 5%;
+     color:black;
+    background-color:white;
+    background-image:url("https://cdn.pixabay.com/photo/2014/09/27/17/35/dandelion-463928_960_720.jpg");
+    background-repeat:no-repeat;
+    background-size: 80%;
+    background-position: 10% 10%;
+    
 
 }
 
@@ -54,3 +62,4 @@ and open the template in the editor.
     font-size: 1.4em;
 
 }
+
