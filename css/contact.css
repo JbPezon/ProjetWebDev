@@ -115,7 +115,7 @@ td{
     width: 82%;
     padding: 0.5%;
     margin-left: 2%;
-    height: 50%;
+    height: 10%;
 }
 
 #plus label{
@@ -140,7 +140,7 @@ input[type="email"]:valid ~ .input-validation::before {
 #details article{
     display: flex;
     align-items: center;
-    font-size: 1.8em;
+    font-size: 2em;
     font-family: Gabriola, Arial, serif;
     padding-right: 21%;
     padding-left: 21%;
