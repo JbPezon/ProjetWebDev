@@ -11,6 +11,7 @@ footer {
     bottom: 0px; /* Bas */
     height: 35px; /* Hauteur */
     width: 100%; /* Le pied de page occupe toute la largeur */ 
+
     background-color:#FFFFFF; /* Couleur de fond */
     color: #000; /* Couleur du texte */
     text-align:center; /* Texte centré */
@@ -34,6 +35,8 @@ footer p {
     font-family: 'policeEcritureMain';
     src: url('../police/Photograph Signature.ttf');
 }
+
+
 
 body {
     display: flex; /* Ce conteneur est "flexible" */
@@ -140,8 +143,110 @@ section {
     font-size: 1.4em;
 }
 
+#icone_menu{
+    display: none;
+}
+
 @media screen and (min-width:576px) and (max-width:768px) {
-    #thematique {     flex-direction: row; /* Sur tablette, les casques de l'accueil sont côte à côte */     }
+
+    nav{
+        display: none;
+    }
+
+
+}
+
+@media screen and (min-width:350px) and (max-width:450px) {
+
+    nav {
+        <!--display: none;-->
+    }
+
+    #icone_menu{
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+    }
+
+    #icone_menu picture{
+        display: flex;
+    }
+
+    body{
+        width: 100%;
+    }
+
+    #messageMain{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        font-size: 2em;
+    }
+    section{
+        width: 100%;
+    }
+
+    #page_1{
+        font-size: 1em;
+    }
+
+    #messageMilieu{
+        font-size: 1em;
+    }
+
+    nav{
+        display: flex;
+        padding-left: 0;
+        padding-right: 0;
+        width: 90%;
+    }
+
+    nav input {
+        display: none;
+    }
+
+    .ul {
+        display: flex; /* Ce conteneur est "flexible" */
+        flex-direction: column; /* Les éléments sont mis côte à côte */
+        justify-content: space-between; /* Les éléments sont répartis équitablement */
+        width: 50%;
+        margin-left: -300px;
+        transition-duration: 0.2s;
+    }
+
+    .ul_open {
+        display: flex; /* Ce conteneur est "flexible" */
+        flex-direction: column; /* Les éléments sont mis côte à côte */
+        justify-content: space-between; /* Les éléments sont répartis équitablement */
+        width: 50%;
+        margin-left: 0px;
+        transition-duration: 0.2s;
+    }
+
+    nav ul li {
+        display: flex; /* Ce conteneur est "flexible" */
+        justify-content: start; /* Les éléments portés sont centrés à l'horizontal */
+        list-style-type: none; /* Cette liste n'a pas de puce */
+        font-size: 1em;
+    }
+
+    nav ul li a {
+        padding: 8px; /* Marge intérieure */
+        color: #993599; /* Couleur du texte */
+        text-decoration: none;
+        border: solid;
+        border-radius: 10px;
+        background-color: #ffe3ff; /* Couleur du fond */
+    }
+    nav ul li:hover {
+        background-color: #ffc9ff; /* Couleur du fond au passage de la souris */
+    }
+
+    #navResponsive{
+        display: flex;
+        flex-direction: row;
+    }
 }
 
 .ml3 {
