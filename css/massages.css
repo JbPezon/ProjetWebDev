@@ -62,8 +62,9 @@ body{
 .dureeEtPrix{
     font-family: Gabriola;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin-right: 5%;
+    padding-top: 7%;
     align-items: center;
     width: 20%;
 }
