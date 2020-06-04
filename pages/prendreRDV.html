@@ -36,10 +36,10 @@
                 </ul>
             </nav>
         </header>
-        <section id="contact">
-            <div id="titre">
+        <div id="contact">
+            <section id="titre">
                 <p>Prendre un rendez-vous</p>
-            </div>
+            </section>
             <form name="contact" action="../php/envoiEmail.php" method="POST">
                 <fieldset id="info">
                     <legend>Vos informations</legend>
@@ -93,14 +93,26 @@
                     <table>
                         <td><div id="questions"><input type="checkbox" name="chk_questions[]" value="questions" id="chk_questions"> <label for="chk_questions">Question</label></div></td>
                     </table>
-                    <div><label for="com">Commentaires:</label><textarea name="commentaires" id="com" cols="35" rows="10"></textarea></div>
+                    <div id="plus">
+                        <label for="com">Commentaires:</label>
+                        <textarea name="commentaires" id="com" cols="35" rows="10"></textarea>
+                    </div>
                 </fieldset>
                 <div id="envoyer">
                     <input type="submit" name="sub_envoyer" value="Envoyer votre demande de prise de rendez-vous">
                     <input type="reset" name="rst_annuler" value="Effacer les réponses">
                 </div>
             </form>
-        </section>
+            <section id="details">
+                <article>
+                    Je vous reçois à Carnoux en Provence mais je peux aussi me déplacer (les frais de déplacement seront rajoutés au montant de la séance). Voici mon addresse :
+                </article>
+                <div id="carte">
+                    <iframe width="58%" height="500" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=5.93751221895218%2C43.12001963994469%2C5.940349996089936%2C43.12164459847973&amp;layer=mapnik&amp;marker=43.12083212460685%2C5.938931107521057" style="border: 1px solid black"></iframe><br/>
+                    <small><a href="https://www.openstreetmap.org/?mlat=43.12083&amp;mlon=5.93893#map=19/43.12083/5.93893">Afficher une carte plus grande</a></small>
+                </div>
+            </section>
+        </div>
         <footer>
             <p>&copy;2020 - Bien-être et Energies - <a href="instanthappy13@gmail.com">Valérie Olivari</a><p>
         </footer>
