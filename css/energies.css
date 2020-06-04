@@ -32,13 +32,15 @@ and open the template in the editor.
 
 #titre{
     display: flex;
-    justify-content: center;
-    padding-top: 5%;
-    font-family: "policeEcritureMain", Arial, serif;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
     font-size: 5em;
-
+    font-family: "policeEcritureMain", Arial, serif;
+    margin-top: 2%;
     width: 100%;
 }
+
 #theme {
     display: flex;
     flex-direction: column;

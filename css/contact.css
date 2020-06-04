@@ -4,19 +4,17 @@
     Email : gauthier.bradu@isen.yncrea.fr , jean-baptiste.pezon@isen.yncrea.fr , emma.valenza@isen.yncrea.fr
 */
 
-@font-face {
-    font-family: 'policeEcriture';
-    src: url('../police/Please write me a song.ttf');
-}
-
 section{
     width: 99%;
 }
 
-#contact h1 {
-    text-align: center;
-    font-family: "policeEcriture", Arial, serif;
-    font-size: 3em;
+#titre{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+    font-size: 5em;
+    font-family: "policeEcritureMain", Arial, serif;
 }
 
 #contact form{
