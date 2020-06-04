@@ -65,6 +65,7 @@ and open the template in the editor.
     -moz-box-shadow:3px 4px 5px #cdcbcf;     
     -webkit-box-shadow:3px 4px 5px #cdcbcf;
     overflow: hidden;
+    border-radius: 2%; /* Bords arrondis au passage de la souris */
 
 
     -webkit-transition: all 2s ease; /* Safari et Chrome */
