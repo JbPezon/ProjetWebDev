@@ -17,11 +17,3 @@ body {
     padding-top: 7%;
     text-align: center;
 }
-
-#carte h1{
-    font-size: 3em;
-    font-family: Arial, serif;
-    margin-bottom: 1%;
-    display: flex;
-   justify-content: center;
-}

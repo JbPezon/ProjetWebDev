@@ -28,7 +28,6 @@ section{
 #contact form div{
     display: flex;
     flex-direction: row;
-    padding-bottom: 1%;
     align-items: center;
 }
 
@@ -38,7 +37,6 @@ section{
     width: 70%;
     margin-bottom: 1%;
     margin-right: 1%;
-    justify-content: center;
 }
 
 #info legend {
@@ -48,6 +46,8 @@ section{
 
 #info label {
     margin-right: 1%;
+    font-family: Gabriola, Arial, serif;
+    font-size:2em;
 }
 
 #info input, #info select {
@@ -70,24 +70,34 @@ section{
     font-weight: bold;
 }
 
+#rdv div{
+    margin-top: -2.5%;
+}
+
 #info legend, #rdv legend, #massages legend, #soins legend{
-    font-size: 17px;
+    font-size: 2em;
+    font-family: Gabriola, Arial, serif;
+}
+
+#massages table, #soins table{
+    margin-top: -5%;
 }
 
 #massages input, #soins input, #questions input{
-    margin-top: 1%;
+    margin-top: -2%;
     margin-right: 1.5px;
+
 }
 
 #massages label, #soins label, #questions label, #com label{
-    font-size: 17px;
+    font-family: Gabriola, Arial, serif;
+    font-size: 2em;
+    padding: 0;
 }
 
 #questions label{
     font-weight: bold;
 }
-
-
 
 #envoyer input{
     background-color: #cdcbcf;
@@ -105,6 +115,12 @@ td{
     width: 82%;
     padding: 0.5%;
     margin-left: 2%;
+    height: 50%;
+}
+
+#com label{
+    font-family: Gabriola, Arial, serif;
+    font-size:2em;
 }
 
 input:valid, :not(input[type="submit"]) {
@@ -119,6 +135,27 @@ input[type="email"]:valid ~ .input-validation::before {
     content: "✔";
     margin-left: 2%;
     color: green;
+}
+
+#details article{
+    display: flex;
+    align-items: center;
+    font-size: 1.8em;
+    font-family: Gabriola, Arial, serif;
+    padding-right: 21%;
+    padding-left: 21%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    text-align: center;
+}
+
+#carte{
+    display: flex; /* Ce conteneur est "flexible" */
+    justify-content: center; /* Les éléments portés sont centrés à l'horizontal */
+    flex-direction: column; /* Les éléments sont empilés */
+    align-items: center; /* Les éléments portés sont centrés à la verticale */
+    width: 100%; /* La page occupe toute la largeur */
+    margin-bottom: 1%;
 }
 
 @media screen and (min-width:576px) and (max-width:768px) {
