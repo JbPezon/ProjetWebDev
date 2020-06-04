@@ -5,8 +5,8 @@
 */
 
 @font-face {
-    font-family: 'policeEcritureSympa';
-    src: url('../police/Michella Garden.otf');
+    font-family: 'policeEcriture';
+    src: url('../police/Please write me a song.ttf');
 }
 
 #listeMassage{
@@ -59,16 +59,16 @@ body{
 }
 
 .dureeEtPrix{
-    font-family: 'Trebuchet MS', Helvetica, sans-serif;
-    font-size: 1em;
+    font-family: 'policeEcriture', Helvetica, sans-serif;
+    font-size: 1.4em;
     display: flex;
     flex-direction: column;
     margin-right: 5%;
 }
 
 .descriptionMassage{
-    font-family: 'Trebuchet MS', Helvetica, sans-serif;
-    font-size: 1em;
+    font-family: 'policeEcriture', Helvetica, sans-serif;
+    font-size: 1.4em;
     margin-right: 5%;
 }
 
