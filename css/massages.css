@@ -108,13 +108,17 @@ body{
     height: 50%;
 }
 
-.nomEtImage picture{
+.imageOrdi{
     display: flex;
     border-radius: 10px;
     width: 100%;
     overflow: hidden;
     max-height: 100%;
     max-width: 100%;
+}
+
+.imageResponsive{
+    display: none;
 }
 
 .imageMessage{
@@ -136,11 +140,32 @@ body{
 
     #titre{
         margin-top: -200px;
+        font-size: 2em;
     }
 
     #massage1{
         width: 100%;
     }
+
+    .imageOrdi{
+        display: none;
+    }
+
+    .imageResponsive{
+        display: flex;
+        align-items: center;
+        border-radius: 10px;
+        width: 100%;
+        overflow: hidden;
+        max-height: 100%;
+        max-width: 100%;
+    }
+
+    .imageResponsive img{
+        max-width: 750px;
+        width: 100%;
+    }
+
     #massage2{
         width: 100%;
     }
@@ -193,11 +218,11 @@ body{
     }
 
     .textCacher_before_open{
-        font-size: 0.8em;
+        font-size: 0.4em;
     }
 
     .textCacher_open{
-        font-size: 0.8em;
+        font-size: 0.4em;
     }
 
 
