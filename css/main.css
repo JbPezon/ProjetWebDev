@@ -195,6 +195,8 @@ header picture img {
         flex-direction: column !important;
         position: relative;
         z-index: 4;
+        width: 5%;
+        height: 5%;
     }
 
     #navResponsive input {
