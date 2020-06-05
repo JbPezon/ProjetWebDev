@@ -50,4 +50,12 @@ section {
     #messageDeFin{
         font-size: 1em;
     }
+    
+    
+    .container {
+    position: relative;
+    width: 45%;
+    border-radius:100px;
+    margin-left: 31%;
+}
 }
