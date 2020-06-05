@@ -20,7 +20,7 @@
 #page_energies{
     padding-top: 3%;
     padding-bottom: 5%;
-    font-size: 1.5em;
+    font-size: 2em;
     height: 100%;
     width: 100%;
 }
@@ -28,6 +28,7 @@
 #page_energies p{
     margin-left: 5%;
     margin-right: 5%;
+    font-family: Gabriola, Arial, serif;
 }
 
 #titre{

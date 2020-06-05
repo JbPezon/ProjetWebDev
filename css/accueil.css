@@ -14,6 +14,11 @@ body {
 }
 
 #page_1 article{
-    padding-top: 5%;
+    padding-top: 3%;
     text-align: center;
+}
+
+#page_1 p, #Description p{
+    font-family: Gabriola, Arial, serif;
+    font-size: 1.2em;
 }
