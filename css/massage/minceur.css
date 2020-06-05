@@ -47,6 +47,7 @@
     justify-content: flex-start;
     font-family:Lucida Handwriting;
     margin-bottom: 1%;
+    margin-top: 1%;
 }
 
 #forme{
@@ -64,7 +65,7 @@
 #tarif h1{
     font-family:Lucida Handwriting;
     margin-bottom: 1.2%;
-    margin-top: 1.2%;
+    margin-top: 1%;
 }
 
 #texte2{
@@ -89,28 +90,9 @@
      margin-top: 2%;
 }
 
-#centre{
-    display:flex;
-    justify-content: center;
-    flex-direction: column;
-}
-
-#centre h1{
-    display:flex;
-    justify-content: center;
-    margin: 0;
-    margin-top: 1%;
-}
-
-#centre p{
-    display:flex;
-    justify-content: center;
-}
-
 #texte p, #centre p, #texte2 p, #tarif p {
     font-family: Gabriola, Arial, serif;
     font-size: 1.3em;
     padding-left: 1.2%;
     padding-bottom: 1%;
-    
 }
