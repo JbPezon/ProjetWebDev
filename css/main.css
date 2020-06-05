@@ -61,35 +61,35 @@ header picture img {
     width: 100%;
 }
 
-nav{
+#navResponsive{
     flex-direction: row;
     padding-left: 5%;
     padding-right: 5%;
 }
 
-nav input {
+#navResponsive input {
     display: none;
 }
 
-nav ul {
+#navResponsive ul {
     display: flex; /* Ce conteneur est "flexible" */
     flex-direction: row; /* Les éléments sont mis côte à côte */
     justify-content: space-between; /* Les éléments sont répartis équitablement */
     background-color: white; /* Couleur du fond */
 }
-nav ul li {
+#navResponsive ul li {
     display: flex; /* Ce conteneur est "flexible" */
     justify-content: center; /* Les éléments portés sont centrés à l'horizontal */
     list-style-type: none; /* Cette liste n'a pas de puce */
     font-size: x-large; /* Le texte est grossi en XL */
 }
 
-nav ul li a {
+#navResponsive ul li a {
     padding: 10px; /* Marge intérieure */
     color: #993599; /* Couleur du texte */
     text-decoration: none;
 }
-nav ul li:hover {
+#navResponsive ul li:hover {
     background-color: #ffe3ff; /* Couleur du fond au passage de la souris */
 }
 section {
@@ -191,29 +191,65 @@ section {
     display: none;
 }
 
-@media screen and (min-width:576px) and (max-width:768px) {
+@media screen and (min-width:250px) and (max-width:750px) {
 
-    nav{
-        display: none;
-    }
-
-
-}
-
-@media screen and (min-width:350px) and (max-width:450px) {
-
-    nav {
-        <!--display: none;-->
-    }
-
-    .icone_menu{
+    #navResponsive {
         display: flex;
-        flex-direction: column;
-        align-items: end;
+        flex-direction: column !important;
+        position: relative;
+        z-index: 1;
     }
 
-    .icone_menu picture{
-        display: flex;
+    #navResponsive input {
+        display: block; /* Affichage de l'input pour pouvoir cliquez dessus */
+        position: absolute;
+        top: 10px;
+        opacity: 0; /* input transparent */
+        z-index: 3; /* On le place au-dessus du bouton de menu (hamburger) */
+        width: 30px;
+        height: 30px;
+    }
+
+    #navResponsive span {
+        display: block;
+        width: 30px;
+        height: 5px;
+        top: 10px;
+        margin-bottom: 5px;
+        position: relative;
+        background: black;
+        border-radius: 3px;
+        z-index: 2; /* En dessous de l'input défini avant */
+        /*transform-origin: 4px 0px; /* Modification du centre pour rotation */
+        transition: transform 0.5s ease, background 0.5s ease, opacity 0.55s ease;
+    }
+
+    #navResponsive input:checked ~ span {
+        background: white;
+    }
+
+    /* On fait pivoter la première de 45° (sens horaire) */
+    #navResponsive input:checked ~ span:nth-child(2) {
+        transform: rotate(45deg) translate(7px, 5px);
+    }
+
+    /* On fait pivoter la dernière de 45° (sens anti-horaire) */
+    #navResponsive input:checked ~ span:nth-child(4) {
+        transform: rotate(-45deg) translate(10px, -6px);
+    }
+
+    /* On cache la barre du milieu */
+    #navResponsive input:checked ~ span:nth-child(3) {
+        opacity: 0;
+    }
+
+    /* On annule la translation vers la gauche qui a caché le menu */
+    #navResponsive input:checked ~ .ul {
+        transform: none;
+    }
+
+    #mainBody{
+        margin-top: -200px;
     }
 
     body{
@@ -235,61 +271,43 @@ section {
         font-size: 1em;
     }
 
-    #messageMilieu{
-        font-size: 1em;
-    }
-
-    nav{
-        display: flex;
-        padding-left: 0;
-        padding-right: 0;
-        width: 90%;
-    }
-
-    nav input {
-        display: none;
-    }
-
     .ul {
-        display: flex; /* Ce conteneur est "flexible" */
-        flex-direction: column; /* Les éléments sont mis côte à côte */
-        justify-content: space-between; /* Les éléments sont répartis équitablement */
-        width: 50%;
-        margin-left: -300px;
+        flex-direction: column !important; /* Les éléments sont mis côte à côte */
+        font-size: 1em;
+        width: 200px;
+        position: relative;
+        border-bottom-right-radius: 10px;
+        padding-top: 50px;
+        top: -30px;
+        z-index: 1;
+        background-color: black !important;
+        transform: translate(-200px, 0) ;
         transition-duration: 0.2s;
     }
 
-    .ul_open {
-        display: flex; /* Ce conteneur est "flexible" */
-        flex-direction: column; /* Les éléments sont mis côte à côte */
-        justify-content: space-between; /* Les éléments sont répartis équitablement */
-        width: 50%;
-        margin-left: 0px;
-        transition-duration: 0.2s;
-    }
 
-    nav ul li {
+    #navResponsive ul li {
         display: flex; /* Ce conteneur est "flexible" */
         justify-content: start; /* Les éléments portés sont centrés à l'horizontal */
         list-style-type: none; /* Cette liste n'a pas de puce */
         font-size: 1em;
     }
 
-    nav ul li a {
-        padding: 8px; /* Marge intérieure */
-        color: #993599; /* Couleur du texte */
+    #navResponsive ul li a {
         text-decoration: none;
-        border: solid;
-        border-radius: 10px;
-        background-color: #ffe3ff; /* Couleur du fond */
+        color: white;
+        margin-bottom: 10px;
+        margin-left: 5px;
     }
-    nav ul li:hover {
+    #navResponsive ul li:hover {
         background-color: #ffc9ff; /* Couleur du fond au passage de la souris */
     }
 
     #navResponsive{
         display: flex;
         flex-direction: row;
+        padding-left: 0;
+        padding-right: 0;
     }
 }
 
