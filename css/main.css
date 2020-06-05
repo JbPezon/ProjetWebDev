@@ -272,18 +272,16 @@ section {
     }
 
     .ul {
-        display: flex; /* Ce conteneur est "flexible" */
-        flex-direction: column; /* Les éléments sont mis côte à côte */
-        justify-content: space-between; /* Les éléments sont répartis équitablement */
+        flex-direction: column !important; /* Les éléments sont mis côte à côte */
         font-size: 1em;
-        width: 160px;
+        width: 200px;
         position: relative;
         border-bottom-right-radius: 10px;
         padding-top: 50px;
         top: -30px;
         z-index: 1;
-        background-color: black;
-        transform: translate(-200px, 0);
+        background-color: black !important;
+        transform: translate(-200px, 0) ;
         transition-duration: 0.2s;
     }
 
@@ -308,6 +306,8 @@ section {
     #navResponsive{
         display: flex;
         flex-direction: row;
+        padding-left: 0;
+        padding-right: 0;
     }
 }
 
