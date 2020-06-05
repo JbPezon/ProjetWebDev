@@ -39,37 +39,26 @@
     font-family: Gabriola, Arial, serif;
 }
 
-#texte{
+#centre{
     display:flex;
     flex-direction: column;
+    justify-content: center;
     font-size: 1.4em;
     width: 100%;
     margin-top: 2%;
 }
 
-#texte h1{
-    display: flex;
-    justify-content: flex-start;
-    font-family:Lucida Handwriting;
-    margin-bottom: 1%;
-}
-
-#centre{
-    display:flex;
-    justify-content: center;
-    flex-direction: column;
-}
-
 #centre h1{
-    display:flex;
+    display: flex;
     justify-content: center;
+    font-family:Lucida Handwriting;
     margin: 0;
+    margin-bottom: 1%;
     margin-top: 1%;
 }
 
 #centre p{
-    display:flex;
-    justify-content: center;
+    text-align: center;
 }
 
 #forme2
@@ -106,7 +95,7 @@
     margin-bottom: 1.2%;
 }
 
-#texte p, #centre p, #texte2 p, #tarif p {
+#centre p, #texte2 p, #tarif p {
     font-family: Gabriola, Arial, serif;
     font-size: 1.3em;
     padding-left: 1.2%;
