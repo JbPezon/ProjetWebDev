@@ -53,6 +53,7 @@ section{
 #info input, #info select {
     flex: auto;
     border: 1px solid black;
+    width: 22%;
 }
 
 #info div {
