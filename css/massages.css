@@ -155,8 +155,15 @@ body{
     }
     #massage6{
          width: 100%;
-     }
+    }
 
+    .textCacher_before_open{
+        font-size: 0.8em;
+    }
+
+    .textCacher_open{
+        font-size: 0.8em;
+    }
 
 
 }

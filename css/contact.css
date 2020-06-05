@@ -195,6 +195,7 @@ input[type="email"]:valid ~ .input-validation::before {
 
     #contact form{
         width: 100%;
+        margin-bottom: 100px;
     }
 
     #info legend{
@@ -223,5 +224,44 @@ input[type="email"]:valid ~ .input-validation::before {
 
     #lst_typeclient{
         font-size: 0.8em!important;
+    }
+
+    #typeRendezVous{
+        display: flex!important;
+        flex-direction: column!important;
+        width: 100%;
+    }
+
+    #rdv{
+        font-size: 1em;
+    }
+
+    #rdv legend{
+        font-size: 1em;
+    }
+
+    td label{
+        font-size: 1em !important;
+    }
+
+    #plus{
+        display: flex;
+        flex-direction: column !important;
+        width: 100%;
+    }
+
+    #plus label{
+        font-size: 1.5em;
+    }
+
+    #envoyer{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        font-size: 0.7em;
+    }
+
+    #details article{
+        font-size: 1em !important;
     }
 }
