@@ -95,8 +95,8 @@ body{
     font-size: 1em;
     color: black;
     display: flex;
+    justify-content: center;
     align-items: center;
-    text-align: center;
     border: solid;
     border-color: #a56ea5;
     border-radius: 10px;
