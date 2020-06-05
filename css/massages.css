@@ -131,3 +131,32 @@ body{
     font-family: "policeEcritureMain", Arial, serif;
     margin-top: 2%;
 }
+
+@media screen and (min-width:250px) and (max-width:750px) {
+
+    #titre{
+        margin-top: -200px;
+    }
+
+    #massage1{
+        width: 100%;
+    }
+    #massage2{
+        width: 100%;
+    }
+    #massage3{
+        width: 100%;
+    }
+    #massage4{
+        width: 100%;
+    }
+    #massage5{
+        width: 100%;
+    }
+    #massage6{
+         width: 100%;
+     }
+
+
+
+}
