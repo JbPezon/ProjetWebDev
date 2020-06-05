@@ -1,48 +1,114 @@
 /*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : 3 juin 2020, 21:56:36
-    Author     : BRADU Gauthier
+    Page web créé dans le cadre du projet de fin d'année - juin 2020
+    Auteurs : BRADU Gauthier, PEZON Jean-baptiste et VALENZA Emma
+    Email : gauthier.bradu@isen.yncrea.fr , jean-baptiste.pezon@isen.yncrea.fr , emma.valenza@isen.yncrea.fr
 */
 
 #titre1{
     display: flex;
     justify-content: center;
-    padding-top: 5%;
+    padding-top: 2%;
     font-family:Lucida Handwriting;
-    font-size: 3em;
-
-    width: 100%;
-}
-
-
-#texte{
-
-    display:flex;
-    width: 100%;
     flex-direction: column;
-    font-size: 1.4em;
-
+    width: 100%;
 }
-#texte h1{
+
+#titre1 h1{
     display: flex;
     justify-content: center;
+    font-size: 4em;
+}
+
+#titre1 h2{
+    display: flex;
+    justify-content: center;
+    font-size: 1.7em;
+}
+
+#titre1 p{
+    display: flex;
+    justify-content: center;
+    font-size: 1.8em;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-family: Gabriola, Arial, serif;
+}
+
+#texte{
+    display:flex;
+    flex-direction: column;
+    font-size: 1.4em;
+    width: 100%;
+    margin-top: 2%;
+}
+
+#texte h1{
+    display: flex;
+    justify-content: flex-start;
     font-family:Lucida Handwriting;
+    margin-bottom: 1%;
 }
 
 #forme{
     margin-left: 5%;
     margin-right: 5%;
-
 }
 
 #tarif{
     display:flex;
-    width: 100%;
+    width: 28%;
+    font-size: 1.4em;
+    flex-direction: column;
+}
+
+#tarif h1{
+    font-family:Lucida Handwriting;
+    margin-bottom: 1.2%;
+}
+
+#texte2{
+    display:flex;
     flex-direction: column;
     font-size: 1.4em;
+}
 
+#texte2 h1{
+    display: flex;
+    justify-content: flex-start;
+    font-family:Lucida Handwriting;
+    margin-bottom: 1.2%;
+}
+
+#forme2
+{    margin-left: 3%;
+     margin-right: 5%;
+     justify-content: center;
+     display: flex;
+     flex-direction: row;
+     margin-top: 2%;
+}
+
+#centre{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#centre h1{
+    display:flex;
+    justify-content: center;
+    margin: 0;
+    margin-top: 1%;
+}
+
+#centre p{
+    display:flex;
+    justify-content: center;
+}
+
+#texte p, #centre p, #texte2 p, #tarif p {
+    font-family: Gabriola, Arial, serif;
+    font-size: 1.3em;
+    padding-left: 1.2%;
+    padding-bottom: 1%;
 }
