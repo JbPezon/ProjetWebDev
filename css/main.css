@@ -135,7 +135,7 @@ section {
 }
 .container:hover .overlay {
     width: 90%;
-    left: 0;
+    left: -3px;
     border-radius:100px;
 }
 
