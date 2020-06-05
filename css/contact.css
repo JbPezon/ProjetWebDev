@@ -177,8 +177,47 @@ input[type="email"]:valid ~ .input-validation::before {
     }
 }
 
-@media screen and (max-width:576px) {
-    #rdv {
-        margin-top: 20px;
+@media screen and (min-width:250px) and (max-width:750px) {
+    #titre{
+        margin-top: -200px;
+        font-size: 3em;
+    }
+
+    #contact{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #contact form{
+        width: 100%;
+    }
+
+    #info legend{
+        font-size: 1em !important;
+    }
+
+    #info input{
+        width: 40%;
+    }
+
+    #num_jour{
+        width: 10% !important;
+    }
+
+    #num_mois{
+        width: 10% !important;
+    }
+
+    #num_annee{
+        width: 10% !important;
+    }
+
+    #info label{
+        font-size: 1em;
+    }
+
+    #lst_typeclient{
+        font-size: 0.8em!important;
     }
 }
