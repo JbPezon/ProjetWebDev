@@ -154,7 +154,42 @@ body{
         width: 100%;
     }
     #massage6{
-         width: 100%;
+        width: 100%;
+    }
+
+    .textCacher_before_open{
+        font-size: 0.8em;
+    }
+
+    .textCacher_open{
+        font-size: 0.8em;
+    }
+
+
+}
+
+@media screen and (min-width:375px) and (max-width:812px) {
+    #titre{
+        margin-top: -200px;
+    }
+
+    #massage1{
+        width: 100%;
+    }
+    #massage2{
+        width: 100%;
+    }
+    #massage3{
+        width: 100%;
+    }
+    #massage4{
+        width: 100%;
+    }
+    #massage5{
+        width: 100%;
+    }
+    #massage6{
+        width: 100%;
     }
 
     .textCacher_before_open{
