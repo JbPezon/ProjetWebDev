@@ -33,6 +33,7 @@
 #titre1 p{
     display: flex;
     justify-content: center;
+    text-align: center;
     font-size: 1.8em;
     margin-top: 2%;
     margin-bottom: 1%;
