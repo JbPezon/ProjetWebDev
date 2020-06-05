@@ -61,35 +61,35 @@ header picture img {
     width: 100%;
 }
 
-nav{
+#navResponsive{
     flex-direction: row;
     padding-left: 5%;
     padding-right: 5%;
 }
 
-nav input {
+#navResponsive input {
     display: none;
 }
 
-nav ul {
+#navResponsive ul {
     display: flex; /* Ce conteneur est "flexible" */
     flex-direction: row; /* Les éléments sont mis côte à côte */
     justify-content: space-between; /* Les éléments sont répartis équitablement */
     background-color: white; /* Couleur du fond */
 }
-nav ul li {
+#navResponsive ul li {
     display: flex; /* Ce conteneur est "flexible" */
     justify-content: center; /* Les éléments portés sont centrés à l'horizontal */
     list-style-type: none; /* Cette liste n'a pas de puce */
     font-size: x-large; /* Le texte est grossi en XL */
 }
 
-nav ul li a {
+#navResponsive ul li a {
     padding: 10px; /* Marge intérieure */
     color: #993599; /* Couleur du texte */
     text-decoration: none;
 }
-nav ul li:hover {
+#navResponsive ul li:hover {
     background-color: #ffe3ff; /* Couleur du fond au passage de la souris */
 }
 section {
