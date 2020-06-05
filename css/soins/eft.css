@@ -4,6 +4,11 @@
     Email : gauthier.bradu@isen.yncrea.fr , jean-baptiste.pezon@isen.yncrea.fr , emma.valenza@isen.yncrea.fr
 */
 
+#forme{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
 #titre1{
     display: flex;
     justify-content: center;
@@ -25,15 +30,6 @@
     font-size: 1.7em;
 }
 
-#titre1 p{
-    display: flex;
-    justify-content: center;
-    font-size: 1.8em;
-    margin-top: 1%;
-    margin-bottom: 1%;
-    font-family: Gabriola, Arial, serif;
-}
-
 #texte{
     display:flex;
     flex-direction: column;
@@ -41,21 +37,6 @@
     width: 100%;
     margin-top: 2%;
 }
-
-#texte h1{
-    display: flex;
-    justify-content: flex-start;
-    font-family:Lucida Handwriting;
-    margin-bottom: 1%;
-}
-
-#forme{
-    margin-left: 5%;
-    margin-right: 5%;
-}
-
-
-
 
 #forme2
 {    margin-left: 3%;
@@ -66,44 +47,19 @@
      margin-top: 2%;
 }
 
-#tarif{
-    display:flex;
-    width: 28%;
-    font-size: 1.4em;
-    flex-direction: column;
-
-}
-
-#tarif h1{
-    font-family:Lucida Handwriting;
-    margin-bottom: 1.2%;
-}
-#tarif1 h1{
-    font-family:Lucida Handwriting;
-    margin-bottom: 1.2%;
-}
-#contacter h1{
-    font-family:Lucida Handwriting;
-    margin-bottom: 1.2%;
-}
-
-#tarif1{
-    display:flex;
-    width: 28%;
-    font-size: 1.4em;
-    flex-direction: column;
-
-
-}
-#contacter{
+#tarif, #tarif2, #contacter{
     display:flex;
     width: 28%;
     font-size: 1.4em;
     flex-direction: column;
 }
 
+#tarif h1, #tarif2 h1, #contacter h1{
+    font-family:Lucida Handwriting;
+    margin-bottom: 1.2%;
+}
 
-#texte p, #tarif p,#tarif1 p,#contacter p {
+#texte p, #tarif p, #tarif2 p, #contacter p {
     font-family: Gabriola, Arial, serif;
     font-size: 1.3em;
     padding-left: 1.2%;

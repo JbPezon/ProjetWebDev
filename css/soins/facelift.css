@@ -4,6 +4,11 @@
     Email : gauthier.bradu@isen.yncrea.fr , jean-baptiste.pezon@isen.yncrea.fr , emma.valenza@isen.yncrea.fr
 */
 
+#forme{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
 #titre1{
     display: flex;
     justify-content: center;
@@ -25,46 +30,41 @@
     font-size: 1.7em;
 }
 
-#titre1 p{
-    display: flex;
-    justify-content: center;
-    font-size: 1.8em;
-    margin-top: 1%;
-    margin-bottom: 1%;
-    font-family: Gabriola, Arial, serif;
-}
-
 #texte{
     display:flex;
     flex-direction: column;
     font-size: 1.4em;
     width: 100%;
     margin-top: 2%;
+    text-align: center;
 }
 
-#texte h1{
-    display: flex;
-    justify-content: flex-start;
-    font-family:Lucida Handwriting;
-    margin-bottom: 1%;
-    margin-top: 1%;
-}
-
-#forme{
-    margin-left: 5%;
-    margin-right: 5%;
-}
-
-#tarif{
+#centre{
     display:flex;
-    width: 28%;
-    font-size: 1.4em;
+    justify-content: center;
     flex-direction: column;
 }
 
-#tarif h1{
+#centre h1{
+    display:flex;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 1%;
     font-family:Lucida Handwriting;
-    margin-bottom: 1.2%;
+}
+
+#centre p{
+    display:flex;
+    text-align: center;
+}
+
+#forme2
+{    margin-left: 3%;
+     margin-right: 5%;
+     justify-content: center;
+     display: flex;
+     flex-direction: row;
+     margin-top: 2%;
 }
 
 #texte2{
@@ -80,30 +80,16 @@
     margin-bottom: 1.2%;
 }
 
-#forme2
-{    margin-left: 3%;
-     margin-right: 5%;
-     justify-content: center;
-     display: flex;
-     flex-direction: row;
-     margin-top: 2%;
-}
-
-#centre{
+#tarif{
     display:flex;
-    justify-content: center;
+    width: 28%;
+    font-size: 1.4em;
     flex-direction: column;
 }
 
-#centre h1{
-    display:flex;
-    justify-content: center;
-    margin-top: 2%;
-    margin-bottom: 1%;
-}
-
-#centre p{
-    display:flex;
+#tarif h1{
+    font-family:Lucida Handwriting;
+    margin-bottom: 1.2%;
 }
 
 #texte p, #centre p, #texte2 p, #tarif p {
@@ -160,5 +146,6 @@
     margin-bottom: 1%;
     font-family: Gabriola, Arial, serif;
 }
+
 
 }

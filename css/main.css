@@ -92,9 +92,6 @@ header picture img {
 #navResponsive ul li:hover {
     background-color: #ffe3ff; /* Couleur du fond au passage de la souris */
 }
-section {
-    width: 916px; /* Les sections occupent 916px (taille de la bannière) */
-}
 
 #messageMain{
     font-family: "policeEcritureMain", Arial, serif;
