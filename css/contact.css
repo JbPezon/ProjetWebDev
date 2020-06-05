@@ -265,4 +265,13 @@ input[type="email"]:valid ~ .input-validation::before {
     #details article{
         font-size: 1em !important;
     }
+    
+    #envoyer input{
+    background-color: #cdcbcf;
+    border: 1px black solid;
+    border-radius: 7px;
+    margin-right: 2%;
+    width: 49%;
+    margin-left: 2%;
+}
 }
