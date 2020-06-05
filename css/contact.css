@@ -138,10 +138,8 @@ input[type="email"]:valid ~ .input-validation::before {
 }
 
 #details article{
-    display: flex;
-    align-items: center;
-    font-size: 2em;
-    font-family: Gabriola, Arial, serif;
+    font-size: 1.6em;
+    font-family: Trebuchet MS, sans-serif;
     padding-right: 21%;
     padding-left: 21%;
     margin-bottom: 1%;
