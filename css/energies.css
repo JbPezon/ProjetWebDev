@@ -109,9 +109,7 @@ body {
     text-decoration: none;
 }
 
-
 @media screen and (max-width:750px) {
-
     #titre{
         margin-top: -200px;
         font-size: 3em;
@@ -140,7 +138,7 @@ body {
         flex-direction: column;
         text-decoration: none;
         font-family: "policeEcritureMain", Arial, serif;
-        margin-top: 2%;
+        margin-top: 50px;
         width: 100%;
     }
 
@@ -158,5 +156,5 @@ body {
         justify-content: space-between;
 
     }
-     
+
 }
