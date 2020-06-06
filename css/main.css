@@ -185,7 +185,7 @@ header picture img {
     display: none;
 }
 
-@media screen and (max-width:750px) {
+@media screen and (max-width:950px) {
     #navResponsive {
         display: flex;
         flex-direction: column !important;
@@ -298,6 +298,10 @@ header picture img {
 
     #navResponsive ul li:hover {
         background-color: #ffc9ff; /* Couleur du fond au passage de la souris */
+    }
+
+    header picture img {
+        max-height: 152px;
     }
 
     #navResponsive{
