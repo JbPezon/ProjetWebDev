@@ -90,7 +90,7 @@ section{
     #titre1 h1{
         display: flex;
         justify-content: center;
-        font-size: 1em;
+        font-size: 3em;
     }
 
 
@@ -114,7 +114,7 @@ section{
     #forme{
         margin-left: 5%;
         margin-right: 5%;
-        margin-top: -63%;
+        margin-top: -230px;
     }
 
     #titre1 p{
