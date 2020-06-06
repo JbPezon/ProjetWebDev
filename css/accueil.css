@@ -28,19 +28,21 @@ section {
 }
 
 @media screen and (min-width:250px) and (max-width:750px) {
-
     .photo{
         display: flex;
         width: 100%;
     }
+    
     #page_1{
         flex-direction: column;
-        width: 100%;
+        width: 98%;
+        margin-left: 2%;
     }
 
     #Description p{
         font-size: 0.8em!important;
-        width: 100%;
+        width: 98%;
+        margin-left: 2%;
     }
 
     section{
@@ -50,7 +52,13 @@ section {
     #messageDeFin{
         font-size: 1em;
     }
-    
+
+    .container {
+        position: relative;
+        width: 45%;
+        border-radius:100px;
+        margin-left: 31%;
+    }
     
     .container {
     position: relative;
@@ -92,5 +100,5 @@ section {
     border-radius:100px;
     margin-left: 31%;
 }
-    
+
 }

@@ -143,7 +143,7 @@ body{
 @media screen and (min-width:250px) and (max-width:750px) {
 
     #titre{
-        margin-top: -200px;
+        margin-top: -250px;
         font-size: 2em;
     }
 
