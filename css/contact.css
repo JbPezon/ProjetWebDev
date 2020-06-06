@@ -161,26 +161,7 @@ input[type="email"]:valid ~ .input-validation::before {
     margin-bottom: 1%;
 }
 
-@media screen and (min-width:576px) and (max-width:768px) {
-    #contact {
-        display: flex;
-        flex-direction: column;
-    }
-    #contact h1 {
-        width: 100%;
-    }
-    #info {
-        width: 100%;
-    }
-    #rdv {
-        width: fit-content;
-    }
-    #controles {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-    }
-}
+
 
 @media screen and (min-width:250px) and (max-width:750px) {
     #titre{
@@ -370,12 +351,19 @@ input[type="email"]:valid ~ .input-validation::before {
     }
 
     #envoyer input{
-        background-color: #cdcbcf;
-        border: 1px black solid;
-        border-radius: 7px;
-        margin-right: 2%;
-        width: 49%;
-        margin-left: 2%;
-    }
+    background-color: #cdcbcf;
+    border: 1px black solid;
+    border-radius: 7px;
+    margin-right: 2%;
+    width: 44%;
+    margin-left: 2%;
+}
 
+#contact form{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    padding-right: 0%;
+    padding-left: 0%;
+}
 }
