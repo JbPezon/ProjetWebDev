@@ -20,7 +20,7 @@ section{
 #contact form{
     display: flex;
     flex-direction: column;
-    align-items: center; 
+    align-items: center;
     padding-right: 10%;
     padding-left: 10%;
 }
@@ -159,27 +159,6 @@ input[type="email"]:valid ~ .input-validation::before {
     align-items: center; /* Les éléments portés sont centrés à la verticale */
     width: 100%; /* La page occupe toute la largeur */
     margin-bottom: 1%;
-}
-
-@media screen and (min-width:576px) and (max-width:768px) {
-    #contact {
-        display: flex;
-        flex-direction: column;
-    }
-    #contact h1 {
-        width: 100%;
-    }
-    #info {
-        width: 100%;
-    }
-    #rdv {
-        width: fit-content;
-    }
-    #controles {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-    }
 }
 
 @media screen and (min-width:250px) and (max-width:750px) {
@@ -376,4 +355,29 @@ input[type="email"]:valid ~ .input-validation::before {
         margin-left: 2%;
     }
 
+    #contact form{
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        padding-right: 0%;
+        padding-left: 0%;
+    }
+}
+
+@media screen and (min-width:1120px) and (max-width:1450px) {
+    #massages label ,#soins label{
+        font-size: 1.5em !important;
+    }
+    
+}
+
+@media screen and (min-width:750px) and (max-width:1120px) {
+    #massages label ,#soins label{
+        font-size: 1em !important;
+    }
+    
+    #com{
+        width: 64%;
+    }
+    
 }

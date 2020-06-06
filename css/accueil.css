@@ -32,7 +32,7 @@ section {
         display: flex;
         width: 100%;
     }
-    
+
     #page_1{
         flex-direction: column;
         width: 100%;
@@ -58,19 +58,19 @@ section {
         border-radius:100px;
         margin-left: 31%;
     }
-    
+
     .container {
-    position: relative;
-    width: 45%;
-    border-radius:100px;
-    margin-left: 31%;
-}
+        position: relative;
+        width: 45%;
+        border-radius:100px;
+        margin-left: 31%;
+    }
 }
 
 
-@media screen and (min-width:375px) and (max-width:812px) {
-    
-     .photo{
+@media screen and (max-width:750px) {
+
+    .photo{
         display: flex;
         width: 100%;
     }
@@ -91,13 +91,13 @@ section {
     #messageDeFin{
         font-size: 1em;
     }
-    
-    
+
+
     .container {
-    position: relative;
-    width: 45%;
-    border-radius:100px;
-    margin-left: 31%;
-}
+        position: relative;
+        width: 45%;
+        border-radius:100px;
+        margin-left: 31%;
+    }
 
 }

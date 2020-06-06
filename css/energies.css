@@ -109,14 +109,11 @@ body {
     text-decoration: none;
 }
 
-@media screen and (min-width:250px) and (max-width:750px) {
+@media screen and (max-width:750px) {
     #titre{
         margin-top: -200px;
         font-size: 3em;
     }
-}
-
-@media screen and (min-width:375px) and (max-width:812px) {
 
     #corpDelaPage{
         display: flex;
@@ -159,5 +156,5 @@ body {
         justify-content: space-between;
 
     }
-     
+
 }

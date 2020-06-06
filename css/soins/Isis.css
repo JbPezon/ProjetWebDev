@@ -78,7 +78,7 @@ section{
     width: 50%;
 }
 
-@media screen and (min-width:375px) and (max-width:812px) {
+@media screen and (max-width:750px) {
 
     #texte p, #centre p, #texte2 p, #tarif p {
         font-family: Gabriola, Arial, serif;
