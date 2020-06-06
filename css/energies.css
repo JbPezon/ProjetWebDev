@@ -29,11 +29,13 @@
     margin-left: 5%;
     margin-right: 5%;
     font-family: Gabriola, Arial, serif;
+    text-align: center;
 }
 
 #titre{
     display: flex;
     align-items: center;
+    text-align: center;
     flex-direction: column;
     text-decoration: none;
     font-size: 5em;

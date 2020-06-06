@@ -36,8 +36,6 @@ footer p {
     src: url('../police/Photograph Signature.ttf');
 }
 
-
-
 body {
     display: flex; /* Ce conteneur est "flexible" */
     /*justify-content: center; /* Les éléments portés sont centrés à l'horizontal */
@@ -89,6 +87,7 @@ header picture img {
     color: #993599; /* Couleur du texte */
     text-decoration: none;
 }
+
 #navResponsive ul li:hover {
     background-color: #ffe3ff; /* Couleur du fond au passage de la souris */
 }
@@ -107,6 +106,7 @@ header picture img {
     flex-direction: row;
     font-size: 1.4em;
 }
+
 #page_1 img{
 
     border-radius:100px;
@@ -119,6 +119,7 @@ header picture img {
     width: 50%;
     border-radius:100px;
 }
+
 .overlay {
     position: absolute;
     bottom: 0;
@@ -130,6 +131,7 @@ header picture img {
     height: 100%;
     transition: .5s ease;
 }
+
 .container:hover .overlay {
     width: 90%;
     left: -3px;
@@ -147,6 +149,7 @@ header picture img {
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
 }
+
 #messageMilieu{
     display: flex;
     flex-direction: column;
@@ -163,17 +166,11 @@ header picture img {
     margin-bottom: 5%;
     border: solid black;
     border-radius: 16px;
-
     background-color:#F5F5F5;
     color:#F5F5F5;
-
-
-
 }
 
 #messageDeFin:hover{
-
-
     color:black;
     -webkit-filter: grayscale(0) blur(0px);
     -webkit-transition: all 0.5s ease;
@@ -189,7 +186,6 @@ header picture img {
 }
 
 @media screen and (min-width:250px) and (max-width:750px) {
-
     #navResponsive {
         display: flex;
         flex-direction: column !important;
@@ -261,7 +257,9 @@ header picture img {
         align-items: center;
         width: 100%;
         font-size: 2em;
+        margin-top: -50px;
     }
+
     section{
         width: 100%;
     }
@@ -284,7 +282,6 @@ header picture img {
         transition-duration: 0.2s;
     }
 
-
     #navResponsive ul li {
         display: flex; /* Ce conteneur est "flexible" */
         justify-content: start; /* Les éléments portés sont centrés à l'horizontal */
@@ -298,6 +295,7 @@ header picture img {
         margin-bottom: 10px;
         margin-left: 5px;
     }
+
     #navResponsive ul li:hover {
         background-color: #ffc9ff; /* Couleur du fond au passage de la souris */
     }
