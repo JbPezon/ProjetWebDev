@@ -58,6 +58,8 @@ section {
         position: relative;
         width: 50%;
         border-radius:100px;
+        margin-left: 39%;
+        margin-right: 77%;
     }
 
     .overlay  {
@@ -89,26 +91,6 @@ section {
         transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
     }
-
-    #messageDeFin{
-        font-family: "policeEcritureMain", Arial, serif;
-        display: flex;
-        justify-content: center;
-        font-size: 2em;
-        margin-top: 5%;
-        margin-bottom: 5%;
-        border: solid black;
-        border-radius: 16px;
-        color: black;
-    }
-
-
-
-    #messageDeFin:hover{
-
-        -webkit-filter: grayscale(0) blur(0px);
-        -webkit-transition: all 0.5s ease;
-        transition: all 0.5s ease
-    }
+ 
 
 }
