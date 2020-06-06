@@ -63,11 +63,11 @@
 
 #forme2
 {    margin-left: 3%;
-     margin-right: 3%;
-     justify-content: center;
-     display: flex;
-     flex-direction: row;
-     margin-top: 2%;
+    margin-right: 3%;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
 }
 
 #texte2{
@@ -120,11 +120,11 @@
 
     #forme2
     {    margin-left: 3%;
-         margin-right: 5%;
-         justify-content: center;
-         display: flex;
-         flex-direction: column;
-         margin-top: 2%;
+        margin-right: 5%;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        margin-top: 2%;
     }
 
 
@@ -151,7 +151,7 @@
     }
 }
 
-@media screen and (min-width:375px) and (max-width:812px) 
+@media screen and (max-width:812px)
 {
 
     #texte p, #centre p, #texte2 p, #tarif p {

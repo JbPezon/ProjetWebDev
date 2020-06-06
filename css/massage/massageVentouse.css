@@ -45,11 +45,11 @@
 
 #forme2
 {    margin-left: 3%;
-     margin-right: 3%;
-     justify-content: center;
-     display: flex;
-     flex-direction: row;
-     margin-top: 2%;
+    margin-right: 3%;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
 }
 
 #tarif,#contacter{
