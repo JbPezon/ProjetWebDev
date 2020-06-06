@@ -140,7 +140,17 @@ body{
     margin-top: 2%;
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:325px) {
+    .textCacher_before_open{
+        font-size: 0.4em!important;
+    }
+
+    .textCacher_open{
+        font-size: 0.4em!important;
+    }
+}
+
+@media screen and (min-width: 325px) and (max-width:500px) {
     .textCacher_before_open{
         font-size: 0.5em!important;
     }
