@@ -185,7 +185,7 @@ header picture img {
     display: none;
 }
 
-@media screen and (min-width:250px) and (max-width:750px) {
+@media screen and (max-width:750px) {
     #navResponsive {
         display: flex;
         flex-direction: column !important;
