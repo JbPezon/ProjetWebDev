@@ -59,3 +59,38 @@ section {
     margin-left: 31%;
 }
 }
+
+
+@media screen and (min-width:375px) and (max-width:812px) {
+    
+     .photo{
+        display: flex;
+        width: 100%;
+    }
+    #page_1{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #Description p{
+        font-size: 0.8em!important;
+        width: 100%;
+    }
+
+    section{
+        width: 100%;
+    }
+
+    #messageDeFin{
+        font-size: 1em;
+    }
+    
+    
+    .container {
+    position: relative;
+    width: 45%;
+    border-radius:100px;
+    margin-left: 31%;
+}
+    
+}
