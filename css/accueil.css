@@ -27,45 +27,6 @@ section {
     width: 916px /* Les sections occupent 916px (taille de la bannière) */
 }
 
-@media screen and (min-width:250px) and (max-width:750px) {
-    .photo{
-        display: flex;
-        width: 100%;
-    }
-
-    #page_1{
-        flex-direction: column;
-        width: 100%;
-    }
-
-    #Description p{
-        font-size: 0.8em!important;
-        width: 90%;
-        text-align: center; 
-    }
-
-    section{
-        width: 100%;
-    }
-
-    #messageDeFin{
-        font-size: 1em;
-    }
-
-    .container {
-        position: relative;
-        width: 45%;
-        border-radius:100px;
-        margin-left: 31%;
-    }
-
-    .container {
-        position: relative;
-        width: 45%;
-        border-radius:100px;
-        margin-left: 31%;
-    }
-}
 
 
 @media screen and (max-width:750px) {
@@ -89,7 +50,7 @@ section {
     }
 
     #messageDeFin{
-        font-size: 1em;
+        font-size: 1em !important;
     }
 
 
@@ -99,25 +60,25 @@ section {
         border-radius:100px;
         margin-left: 31%;
     }
-    
-#messageDeFin{
-    font-family: "policeEcritureMain", Arial, serif;
-    display: flex;
-    justify-content: center;
-    font-size: 2em;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    border: solid black;
-    border-radius: 16px;
-    color: black;
-}
+
+    #messageDeFin{
+        font-family: "policeEcritureMain", Arial, serif;
+        display: flex;
+        justify-content: center;
+        font-size: 2em;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        border: solid black;
+        border-radius: 16px;
+        color: black;
+    }
 
 
-#messageDeFin:hover{
-    
-    -webkit-filter: grayscale(0) blur(0px);
-    -webkit-transition: all 0.5s ease;
-    transition: all 0.5s ease
-}
+    #messageDeFin:hover{
+
+        -webkit-filter: grayscale(0) blur(0px);
+        -webkit-transition: all 0.5s ease;
+        transition: all 0.5s ease
+    }
 
 }
