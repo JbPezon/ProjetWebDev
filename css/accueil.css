@@ -35,14 +35,13 @@ section {
     
     #page_1{
         flex-direction: column;
-        width: 98%;
-        margin-left: 2%;
+        width: 100%;
     }
 
     #Description p{
         font-size: 0.8em!important;
-        width: 98%;
-        margin-left: 2%;
+        width: 90%;
+        text-align: center; 
     }
 
     section{

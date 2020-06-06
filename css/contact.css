@@ -184,7 +184,7 @@ input[type="email"]:valid ~ .input-validation::before {
 
 @media screen and (min-width:250px) and (max-width:750px) {
     #titre{
-        margin-top: -200px;
+        margin-top: -230px;
         font-size: 3em;
     }
 
@@ -196,7 +196,6 @@ input[type="email"]:valid ~ .input-validation::before {
 
     #contact form{
         width: 100%;
-        margin-bottom: 100px;
     }
 
     #info legend{
@@ -265,29 +264,29 @@ input[type="email"]:valid ~ .input-validation::before {
     #details article{
         font-size: 1em !important;
     }
-    
-    #envoyer input{
-    background-color: #cdcbcf;
-    border: 1px black solid;
-    border-radius: 7px;
-    margin-right: 2%;
-    width: 44%;
-    margin-left: 2%;
-}
 
-#contact form{
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
-    padding-right: 0%;
-    padding-left: 0%;
-}
+    #envoyer input{
+        background-color: #cdcbcf;
+        border: 1px black solid;
+        border-radius: 7px;
+        margin-right: 2%;
+        width: 44%;
+        margin-left: 2%;
+    }
+
+    #contact form{
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        padding-right: 0%;
+        padding-left: 0%;
+    }
 }
 
 @media screen and (min-width:375px) and (max-width:812px) {
-    
-      #titre{
-        margin-top: -200px;
+
+    #titre{
+        margin-top: -230px;
         font-size: 3em;
     }
 
@@ -299,7 +298,6 @@ input[type="email"]:valid ~ .input-validation::before {
 
     #contact form{
         width: 100%;
-        margin-bottom: 100px;
     }
 
     #info legend{
@@ -368,14 +366,14 @@ input[type="email"]:valid ~ .input-validation::before {
     #details article{
         font-size: 1em !important;
     }
-    
+
     #envoyer input{
-    background-color: #cdcbcf;
-    border: 1px black solid;
-    border-radius: 7px;
-    margin-right: 2%;
-    width: 49%;
-    margin-left: 2%;
-}
-    
+        background-color: #cdcbcf;
+        border: 1px black solid;
+        border-radius: 7px;
+        margin-right: 2%;
+        width: 49%;
+        margin-left: 2%;
+    }
+
 }
