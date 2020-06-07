@@ -263,7 +263,6 @@ input[type="email"]:valid ~ .input-validation::before {
 }
 
 @media screen and (min-width:375px) and (max-width:812px) {
-
     #titre{
         margin-top: -230px;
         font-size: 3em;
