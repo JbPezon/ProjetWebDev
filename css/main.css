@@ -11,7 +11,6 @@ footer {
     bottom: 0px; /* Bas */
     height: 35px; /* Hauteur */
     width: 100%; /* Le pied de page occupe toute la largeur */
-
     background-color:#FFFFFF; /* Couleur de fond */
     color: #000; /* Couleur du texte */
     text-align:center; /* Texte centré */
@@ -38,9 +37,7 @@ footer p {
 
 body {
     display: flex; /* Ce conteneur est "flexible" */
-    /*justify-content: center; /* Les éléments portés sont centrés à l'horizontal */
     flex-direction: column; /* Les éléments sont empilés */
-    /*align-items: center; /* Les éléments portés sont centrés à la verticale */
     width: 100%; /* La page occupe toute la largeur */
     height: 100%;
 }
@@ -75,6 +72,7 @@ header picture img {
     justify-content: space-between; /* Les éléments sont répartis équitablement */
     background-color: white; /* Couleur du fond */
 }
+
 #navResponsive ul li {
     display: flex; /* Ce conteneur est "flexible" */
     justify-content: center; /* Les éléments portés sont centrés à l'horizontal */
@@ -108,12 +106,11 @@ header picture img {
 }
 
 #page_1 img{
-
     border-radius:100px;
     width:145px;
     height:213px;
-
 }
+
 .container {
     position: relative;
     width: 50%;
@@ -215,7 +212,6 @@ header picture img {
         background: black;
         border-radius: 3px;
         z-index: 6; /* En dessous de l'input défini avant */
-        /*transform-origin: 4px 0px; /* Modification du centre pour rotation */
         transition: transform 0.5s ease, background 0.5s ease, opacity 0.55s ease;
     }
 

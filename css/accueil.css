@@ -29,12 +29,11 @@ section {
 }
 
 @media screen and (max-width:950px) {
-
-
     .photo{
         display: flex;
         width: 100%;
     }
+    
     #page_1{
         flex-direction: column;
         width: 100%;
@@ -52,7 +51,6 @@ section {
     #messageDeFin{
         font-size: 1em !important;
     }
-
 
     .container {
         position: relative;
