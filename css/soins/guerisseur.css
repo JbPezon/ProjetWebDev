@@ -35,11 +35,11 @@
 
 #forme2
 {    margin-left: 3%;
-    margin-right: 5%;
-    justify-content: center;
-    display: flex;
-    flex-direction: row;
-    margin-top: 2%;
+     margin-right: 5%;
+     justify-content: center;
+     display: flex;
+     flex-direction: row;
+     margin-top: 2%;
 }
 
 #tarif, #tarif2, #contacter{
@@ -63,42 +63,17 @@
 
 
 @media screen and (max-width:750px) {
-
-    #texte p, #centre p, #texte2 p, #tarif p {
-        font-family: Gabriola, Arial, serif;
-        font-size: 0.8em;
-        padding-left: 1.2%;
-        padding-bottom: 1%;
+    #forme{
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: -230px;
     }
 
     #titre1 h1{
         display: flex;
         justify-content: center;
+        text-align: center;
         font-size: 3em;
-    }
-
-
-    #forme2
-    {    margin-left: 3%;
-        margin-right: 5%;
-        justify-content: center;
-        display: flex;
-        flex-direction: column;
-        margin-top: 2%;
-    }
-
-
-    #tarif{
-        display:flex;
-        width: 100%;
-        font-size: 1.4em;
-        flex-direction: column;
-    }
-
-    #forme{
-        margin-left: 5%;
-        margin-right: 5%;
-        margin-top: -230px;
     }
 
     #titre1 p{
@@ -109,30 +84,35 @@
         margin-bottom: 1%;
         font-family: Gabriola, Arial, serif;
     }
-
-#texte p, #tarif p, #tarif1 p, #contacter p {
-    font-family: Gabriola, Arial, serif;
-    font-size: 0.8em;
-    padding-left: 1.2%;
-    padding-bottom: 1%;
-
+    
+    #forme2
+    {    margin-left: 3%;
+         margin-right: 5%;
+         justify-content: center;
+         text-align: center;
+         display: flex;
+         flex-direction: column;
+         margin-top: 2%;
     }
 
-    #contacter h1{
+    #tarif, #tarif2, #contacter {
+        display:flex;
+        width: 100%;
+        font-size: 1.4em;
+        flex-direction: column;
+    }
+
+    #tarif h1, #tarif2 h1, #contacter h1{
         font-family:Lucida Handwriting;
         margin-bottom: 1.2%;
         width: 100%;
     }
 
-    #tarif1 h1{
-        font-family:Lucida Handwriting;
-        margin-bottom: 1.2%;
-        width: 100%;
-    }
+    #texte p, #tarif p, #tarif2 p, #contacter p {
+        font-family: Gabriola, Arial, serif;
+        font-size: 0.8em;
+        padding-left: 1.2%;
+        padding-bottom: 1%;
 
-    #tarif h1{
-        font-family:Lucida Handwriting;
-        margin-bottom: 1.2%;
-        width: 100%;
     }
 }

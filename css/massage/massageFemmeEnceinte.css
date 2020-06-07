@@ -1,11 +1,7 @@
 /*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : 6 juin 2020, 16:22:49
-    Author     : BRADU Gauthier
+    Page web créé dans le cadre du projet de fin d'année - juin 2020
+    Auteurs : BRADU Gauthier, PEZON Jean-baptiste et VALENZA Emma
+    Email : gauthier.bradu@isen.yncrea.fr , jean-baptiste.pezon@isen.yncrea.fr , emma.valenza@isen.yncrea.fr
 */
 
 #forme{
@@ -38,6 +34,15 @@ and open the template in the editor.
     margin-top: 2%;
 }
 
+#texte h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family:Lucida Handwriting;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+
 #forme2
 {    margin-left: 3%;
      margin-right: 3%;
@@ -49,7 +54,7 @@ and open the template in the editor.
 
 #tarif,#contacter{
     display:flex;
-    width: 40%;
+    width: 25%;
     font-size: 1.4em;
     flex-direction: column;
 }
@@ -69,17 +74,25 @@ and open the template in the editor.
 }
 
 @media screen and (max-width:750px) {
-    #texte p, #centre p, #texte2 p, #tarif p {
-        font-family: Gabriola, Arial, serif;
-        font-size: 0.8em;
-        padding-left: 1.2%;
-        padding-bottom: 1%;
+    #forme{
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: -230px;
     }
 
     #titre1 h1{
         display: flex;
         justify-content: center;
         font-size: 3em;
+    }
+    
+    #titre1 p{
+        display: flex;
+        justify-content: center;
+        font-size: 1.8em;
+        margin-top: -17%;
+        margin-bottom: 1%;
+        font-family: Gabriola, Arial, serif;
     }
 
     #forme2{
@@ -91,25 +104,18 @@ and open the template in the editor.
         margin-top: 2%;
     }
 
-    #tarif{
+    #tarif, #contacter{
         display:flex;
         width: 100%;
         font-size: 1.4em;
         flex-direction: column;
+        text-align: center;
     }
 
-    #forme{
-        margin-left: 5%;
-        margin-right: 5%;
-        margin-top: -230px;
-    }
-
-    #titre1 p{
-        display: flex;
-        justify-content: center;
-        font-size: 1.8em;
-        margin-top: -17%;
-        margin-bottom: 1%;
+    #texte p, #centre p, #texte2 p, #tarif p , #contacter p{
         font-family: Gabriola, Arial, serif;
+        font-size: 0.8em;
+        padding-left: 1.2%;
+        padding-bottom: 1%;
     }
 }
