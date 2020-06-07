@@ -368,7 +368,6 @@ input[type="email"]:valid ~ .input-validation::before {
     #massages label ,#soins label{
         font-size: 1.5em !important;
     }
-    
 }
 
 @media screen and (min-width:750px) and (max-width:1120px) {
