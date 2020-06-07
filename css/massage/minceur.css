@@ -24,6 +24,13 @@
     font-size: 4em;
 }
 
+#titre1 h2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.7em;
+}
+
 #texte{
     display:flex;
     flex-direction: column;
@@ -44,16 +51,16 @@
 
 #forme2
 {    margin-left: 3%;
-    margin-right: 3%;
-    justify-content: center;
-    display: flex;
-    flex-direction: row;
-    margin-top: 2%;
+     margin-right: 3%;
+     justify-content: center;
+     display: flex;
+     flex-direction: row;
+     margin-top: 2%;
 }
 
 #tarif, #contacter{
     display:flex;
-    width: 25%;
+    width: 22%;
     font-size: 1.4em;
     flex-direction: column;
 }
@@ -64,7 +71,7 @@
     margin-top: 1%;
 }
 
-#texte p, #tarif p,#contacter p {
+#texte p, #tarif p, #contacter p {
     font-family: Gabriola, Arial, serif;
     font-size: 1.3em;
     padding-left: 1.2%;
@@ -73,7 +80,7 @@
 
 
 @media screen and (max-width:750px) {
-   #forme{
+    #forme{
         margin-left: 5%;
         margin-right: 5%;
         margin-top: -230px;
@@ -112,7 +119,7 @@
         text-align: center;
     }
 
-     #texte p, #centre p, #texte2 p, #tarif p ,#contacter p{
+    #texte p, #centre p, #texte2 p, #tarif p ,#contacter p{
         font-family: Gabriola, Arial, serif;
         font-size: 0.8em;
         padding-left: 1.2%;
