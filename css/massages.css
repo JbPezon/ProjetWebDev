@@ -37,7 +37,7 @@ body{
 .textCacher_before_open{
     display: flex;
     flex-direction: row;
-    background-color: #a5eaa5;
+    background-color: #e4ace9;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
     z-index: 2;
@@ -48,7 +48,7 @@ body{
 .textCacher_open{
     display: flex;
     flex-direction: row;
-    background-color: #a5eaa5;
+    background-color: #e4ace9;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
     margin-top: -10px;
@@ -103,7 +103,7 @@ body{
     padding-right: 4px;
     padding-left: 4px;
     margin-left: 5%;
-    background-color: #cd93cd;
+    background-color: #f7f4d1;
     width: 50%;
     height: 50%;
 }
