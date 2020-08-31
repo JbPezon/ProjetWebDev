@@ -9,6 +9,10 @@ var estAfficherMassage3 = 0;
 var estAfficherMassage4 = 0;
 var estAfficherMassage5 = 0;
 var estAfficherMassage6 = 0;
+var estAfficherMassage7 = 0;
+var estAfficherMassage8 = 0;
+var estAfficherMassage9 = 0;
+var estAfficherMassage10 = 0;
 
 function afficheDescription(el) {
     var hauteur=el.querySelector(".nomEtImage").offsetHeight;
@@ -149,6 +153,98 @@ function afficheDescription(el) {
                     el.querySelector(".textCacher_before_open").className = "textCacher";
                 }, 200);
                 estAfficherMassage6 = 0;
+            }
+            break;
+        case("massage7"):
+            if (!estAfficherMassage7){
+                el.querySelector(".textCacher").className = "textCacher_before_open";
+                el.querySelector(".textCacher_before_open").style.height=hauteur+"px";
+                el.querySelector(".textCacher_before_open").style.marginTop="-" + hauteur+"px";
+                setTimeout(function(){
+                    el.querySelector(".textCacher_before_open").className = "textCacher_open";
+                    el.querySelector(".textCacher_open").style.height=hauteur+"px";
+                    el.querySelector(".textCacher_open").style.marginTop="-"+20+"px";
+                }, 50);// on met un timer sinon le changement de css se fait plus vite que la transition
+
+                estAfficherMassage7 = 1;
+            }
+            else{
+                el.querySelector(".textCacher_open").className = "textCacher_before_open";
+                el.querySelector(".textCacher_before_open").style.height=hauteur+"px";
+                el.querySelector(".textCacher_before_open").style.marginTop="-" + (hauteur+20) +"px";
+                setTimeout(function(){
+                    el.querySelector(".textCacher_before_open").className = "textCacher";
+                }, 200);
+                estAfficherMassage7 = 0;
+            }
+            break;
+        case("massage8"):
+            if (!estAfficherMassage8){
+                el.querySelector(".textCacher").className = "textCacher_before_open";
+                el.querySelector(".textCacher_before_open").style.height=hauteur+"px";
+                el.querySelector(".textCacher_before_open").style.marginTop="-" + hauteur+"px";
+                setTimeout(function(){
+                    el.querySelector(".textCacher_before_open").className = "textCacher_open";
+                    el.querySelector(".textCacher_open").style.height=hauteur+"px";
+                    el.querySelector(".textCacher_open").style.marginTop="-"+20+"px";
+                }, 50);// on met un timer sinon le changement de css se fait plus vite que la transition
+
+                estAfficherMassage8 = 1;
+            }
+            else{
+                el.querySelector(".textCacher_open").className = "textCacher_before_open";
+                el.querySelector(".textCacher_before_open").style.height=hauteur+"px";
+                el.querySelector(".textCacher_before_open").style.marginTop="-" + (hauteur+20) +"px";
+                setTimeout(function(){
+                    el.querySelector(".textCacher_before_open").className = "textCacher";
+                }, 200);
+                estAfficherMassage8 = 0;
+            }
+            break;
+        case("massage9"):
+            if (!estAfficherMassage9){
+                el.querySelector(".textCacher").className = "textCacher_before_open";
+                el.querySelector(".textCacher_before_open").style.height=hauteur+"px";
+                el.querySelector(".textCacher_before_open").style.marginTop="-" + hauteur+"px";
+                setTimeout(function(){
+                    el.querySelector(".textCacher_before_open").className = "textCacher_open";
+                    el.querySelector(".textCacher_open").style.height=hauteur+"px";
+                    el.querySelector(".textCacher_open").style.marginTop="-"+20+"px";
+                }, 50);// on met un timer sinon le changement de css se fait plus vite que la transition
+
+                estAfficherMassage9 = 1;
+            }
+            else{
+                el.querySelector(".textCacher_open").className = "textCacher_before_open";
+                el.querySelector(".textCacher_before_open").style.height=hauteur+"px";
+                el.querySelector(".textCacher_before_open").style.marginTop="-" + (hauteur+20) +"px";
+                setTimeout(function(){
+                    el.querySelector(".textCacher_before_open").className = "textCacher";
+                }, 200);
+                estAfficherMassage9 = 0;
+            }
+            break;
+        case("massage10"):
+            if (!estAfficherMassage10){
+                el.querySelector(".textCacher").className = "textCacher_before_open";
+                el.querySelector(".textCacher_before_open").style.height=hauteur+"px";
+                el.querySelector(".textCacher_before_open").style.marginTop="-" + hauteur+"px";
+                setTimeout(function(){
+                    el.querySelector(".textCacher_before_open").className = "textCacher_open";
+                    el.querySelector(".textCacher_open").style.height=hauteur+"px";
+                    el.querySelector(".textCacher_open").style.marginTop="-"+20+"px";
+                }, 50);// on met un timer sinon le changement de css se fait plus vite que la transition
+
+                estAfficherMassage10 = 1;
+            }
+            else{
+                el.querySelector(".textCacher_open").className = "textCacher_before_open";
+                el.querySelector(".textCacher_before_open").style.height=hauteur+"px";
+                el.querySelector(".textCacher_before_open").style.marginTop="-" + (hauteur+20) +"px";
+                setTimeout(function(){
+                    el.querySelector(".textCacher_before_open").className = "textCacher";
+                }, 200);
+                estAfficherMassage10 = 0;
             }
             break;
 
